@@ -17,13 +17,14 @@ A structured introduction to the Agent2Agent (A2A) Protocol for building interop
 | 7 | [Expose Agent with A2A](07-expose-agent-a2a.md) | A2A server setup |
 | 8 | [A2A Client](08-a2a-client.md) | Calling agents from code |
 | 9 | [Agent Orchestration](09-agent-orchestration.md) | Multi-agent patterns |
+| 10 | [This Repository's Example](10-project-example.md) | Project architecture & patterns |
 
 ---
 
 ## Quick Start
 
 1. **Concepts** — Read sections 1–4 for background
-2. **Hands-on** — Follow sections 5–9 to build and connect agents
+2. **Hands-on** — Follow sections 5–10 to build and connect agents
 
 ---
 

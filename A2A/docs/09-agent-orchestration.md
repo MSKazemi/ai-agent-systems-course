@@ -274,7 +274,13 @@ The **coordinator pattern** is the most common in real systems.
 
 ---
 
-# Transition to Next Section
+# This Repository's Example
+
+See [Section 10 — This Repository's Example](10-project-example.md) for the concrete coordinator + math + prime architecture in this repo.
+
+---
+
+# Transition to Advanced Topics
 
 Now that we understand **how agents collaborate**, the next step is to explore **advanced capabilities of A2A systems**, including:
 
@@ -287,4 +293,4 @@ These features are important for **production agent systems**.
 
 ---
 
-[← Previous: Section 8](08-a2a-client.md) | [Index](index.md)
+[← Previous: Section 8](08-a2a-client.md) | [Next: Section 10 — This Repository's Example →](10-project-example.md) | [Index](index.md)
