@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "calculator": {
+      "command": "/path/to/MCP-LBDA/.venv/bin/python",
+      "args": ["/path/to/MCP-LBDA/examples/01-calculator/server.py"]
+    },
+    "calculator-advanced": {
+      "command": "/path/to/MCP-LBDA/.venv/bin/python",
+      "args": ["/path/to/MCP-LBDA/examples/02-calculator-advanced/server.py"]
+    }
+  }
+}

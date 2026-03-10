@@ -1,0 +1,434 @@
+[
+    {
+        "label": "root_agent",
+        "importPath": "coordinator_agent",
+        "description": "coordinator_agent",
+        "isExtraImport": true,
+        "detail": "coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "importPath": "dynamic_coordinator_agent",
+        "description": "dynamic_coordinator_agent",
+        "isExtraImport": true,
+        "detail": "dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_azure_deployment",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "is_azure_configured",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "google.adk.agents.llm_agent",
+        "description": "google.adk.agents.llm_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.llm_agent",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "google.adk.agents.llm_agent",
+        "description": "google.adk.agents.llm_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.llm_agent",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "google.adk.agents.llm_agent",
+        "description": "google.adk.agents.llm_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.llm_agent",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "google.adk.agents.llm_agent",
+        "description": "google.adk.agents.llm_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.llm_agent",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteA2aAgent",
+        "importPath": "google.adk.agents.remote_a2a_agent",
+        "description": "google.adk.agents.remote_a2a_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.remote_a2a_agent",
+        "documentation": {}
+    },
+    {
+        "label": "AGENT_CARD_WELL_KNOWN_PATH",
+        "importPath": "google.adk.agents.remote_a2a_agent",
+        "description": "google.adk.agents.remote_a2a_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.remote_a2a_agent",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteA2aAgent",
+        "importPath": "google.adk.agents.remote_a2a_agent",
+        "description": "google.adk.agents.remote_a2a_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.remote_a2a_agent",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "to_a2a",
+        "importPath": "google.adk.a2a.utils.agent_to_a2a",
+        "description": "google.adk.a2a.utils.agent_to_a2a",
+        "isExtraImport": true,
+        "detail": "google.adk.a2a.utils.agent_to_a2a",
+        "documentation": {}
+    },
+    {
+        "label": "to_a2a",
+        "importPath": "google.adk.a2a.utils.agent_to_a2a",
+        "description": "google.adk.a2a.utils.agent_to_a2a",
+        "isExtraImport": true,
+        "detail": "google.adk.a2a.utils.agent_to_a2a",
+        "documentation": {}
+    },
+    {
+        "label": "math_remote",
+        "kind": 5,
+        "importPath": "coordinator_agent",
+        "description": "coordinator_agent",
+        "peekOfCode": "math_remote = RemoteA2aAgent(\n    name=\"remote_math\",\n    description=\"Remote agent for arithmetic tasks\",\n    agent_card=f\"http://127.0.0.1:8001{AGENT_CARD_WELL_KNOWN_PATH}\",\n)\nprime_remote = RemoteA2aAgent(\n    name=\"remote_prime\",\n    description=\"Remote agent that checks if numbers are prime\",\n    agent_card=f\"http://127.0.0.1:8003{AGENT_CARD_WELL_KNOWN_PATH}\",\n)",
+        "detail": "coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "prime_remote",
+        "kind": 5,
+        "importPath": "coordinator_agent",
+        "description": "coordinator_agent",
+        "peekOfCode": "prime_remote = RemoteA2aAgent(\n    name=\"remote_prime\",\n    description=\"Remote agent that checks if numbers are prime\",\n    agent_card=f\"http://127.0.0.1:8003{AGENT_CARD_WELL_KNOWN_PATH}\",\n)\n# --- Coordinator: delegates to sub_agents based on user question ---\nroot_agent = Agent(\n    name=\"coordinator\",\n    model=get_llm_model(),\n    instruction=(",
+        "detail": "coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "kind": 5,
+        "importPath": "coordinator_agent",
+        "description": "coordinator_agent",
+        "peekOfCode": "root_agent = Agent(\n    name=\"coordinator\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a coordinator agent. \"\n        \"For arithmetic questions, delegate to remote_math. \"\n        \"For prime-checking questions (e.g. 'is 17 prime?'), delegate to remote_prime.\"\n    ),\n    sub_agents=[math_remote, prime_remote],\n)",
+        "detail": "coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "load_agents_from_registry",
+        "kind": 2,
+        "importPath": "dynamic_coordinator_agent",
+        "description": "dynamic_coordinator_agent",
+        "peekOfCode": "def load_agents_from_registry(\n    registry_path: Path | str | None = None,\n    registry_url: str | None = None,\n) -> list[RemoteA2aAgent]:\n    \"\"\"\n    Load RemoteA2aAgent instances from a registry (file or HTTP).\n    Registry format:\n        {\"agents\": [{\"name\": \"...\", \"description\": \"...\", \"agent_card\": \"http://...\"}]}\n    Resolution order:\n        1. registry_url arg (if provided)",
+        "detail": "dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "REGISTRY_PATH",
+        "kind": 5,
+        "importPath": "dynamic_coordinator_agent",
+        "description": "dynamic_coordinator_agent",
+        "peekOfCode": "REGISTRY_PATH = Path(__file__).parent / \"agent_registry.json\"\ndef load_agents_from_registry(\n    registry_path: Path | str | None = None,\n    registry_url: str | None = None,\n) -> list[RemoteA2aAgent]:\n    \"\"\"\n    Load RemoteA2aAgent instances from a registry (file or HTTP).\n    Registry format:\n        {\"agents\": [{\"name\": \"...\", \"description\": \"...\", \"agent_card\": \"http://...\"}]}\n    Resolution order:",
+        "detail": "dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "sub_agents",
+        "kind": 5,
+        "importPath": "dynamic_coordinator_agent",
+        "description": "dynamic_coordinator_agent",
+        "peekOfCode": "sub_agents = load_agents_from_registry()\n# Build instruction dynamically so the LLM knows what agents exist\nagent_summary = \", \".join(f\"{a.name} ({a.description})\" for a in sub_agents) if sub_agents else \"none\"\nroot_agent = Agent(\n    name=\"dynamic_coordinator\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a coordinator agent. Delegate tasks to the appropriate sub-agent. \"\n        f\"Available agents: {agent_summary}. \"\n        \"Choose the best agent for each user request.\"",
+        "detail": "dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "agent_summary",
+        "kind": 5,
+        "importPath": "dynamic_coordinator_agent",
+        "description": "dynamic_coordinator_agent",
+        "peekOfCode": "agent_summary = \", \".join(f\"{a.name} ({a.description})\" for a in sub_agents) if sub_agents else \"none\"\nroot_agent = Agent(\n    name=\"dynamic_coordinator\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a coordinator agent. Delegate tasks to the appropriate sub-agent. \"\n        f\"Available agents: {agent_summary}. \"\n        \"Choose the best agent for each user request.\"\n    ),\n    sub_agents=sub_agents,",
+        "detail": "dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "kind": 5,
+        "importPath": "dynamic_coordinator_agent",
+        "description": "dynamic_coordinator_agent",
+        "peekOfCode": "root_agent = Agent(\n    name=\"dynamic_coordinator\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a coordinator agent. Delegate tasks to the appropriate sub-agent. \"\n        f\"Available agents: {agent_summary}. \"\n        \"Choose the best agent for each user request.\"\n    ),\n    sub_agents=sub_agents,\n)",
+        "detail": "dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "get_azure_deployment",
+        "kind": 2,
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "peekOfCode": "def get_azure_deployment() -> str:\n    \"\"\"\n    Return the Azure OpenAI deployment name for chat completions.\n    Used when building the LiteLLM model string: azure/<deployment>\n    \"\"\"\n    return os.getenv(\"AZURE_PRIMARY_LLM_DEPLOYMENT_NAME\", \"gpt-4o\")\ndef is_azure_configured() -> bool:\n    \"\"\"\n    Check if Azure credentials are available (after normalizing env vars).\n    \"\"\"",
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "is_azure_configured",
+        "kind": 2,
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "peekOfCode": "def is_azure_configured() -> bool:\n    \"\"\"\n    Check if Azure credentials are available (after normalizing env vars).\n    \"\"\"\n    _normalize_azure_env()\n    return bool(os.getenv(\"AZURE_API_KEY\") and os.getenv(\"AZURE_API_BASE\"))\ndef get_llm_model() -> Any:\n    \"\"\"\n    Return the LLM model object/string for ADK Agent.\n    Selection logic:",
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "kind": 2,
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "peekOfCode": "def get_llm_model() -> Any:\n    \"\"\"\n    Return the LLM model object/string for ADK Agent.\n    Selection logic:\n        - LLM_PROVIDER=azure   → Azure OpenAI via LiteLLM (requires Azure env vars)\n        - LLM_PROVIDER=gemini  → \"gemini-2.0-flash\" (requires GOOGLE_API_KEY)\n        - Unset                → Azure if configured, else Gemini\n    Returns:\n        Either LiteLlm(model=\"azure/gpt-4o\") or \"gemini-2.0-flash\"\n    \"\"\"",
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "registry_server",
+        "description": "registry_server",
+        "peekOfCode": "def root():\n    \"\"\"Health/info endpoint.\"\"\"\n    return {\"message\": \"A2A Agent Registry\", \"agents\": \"/agents\"}\n@app.get(\"/agents\")\ndef get_agents():\n    \"\"\"\n    Return the list of available agents.\n    Response format (same as agent_registry.json):\n        {\"description\": \"...\", \"agents\": [{\"name\": \"...\", \"description\": \"...\", \"agent_card\": \"...\"}]}\n    The dynamic coordinator parses this and creates RemoteA2aAgent instances.",
+        "detail": "registry_server",
+        "documentation": {}
+    },
+    {
+        "label": "get_agents",
+        "kind": 2,
+        "importPath": "registry_server",
+        "description": "registry_server",
+        "peekOfCode": "def get_agents():\n    \"\"\"\n    Return the list of available agents.\n    Response format (same as agent_registry.json):\n        {\"description\": \"...\", \"agents\": [{\"name\": \"...\", \"description\": \"...\", \"agent_card\": \"...\"}]}\n    The dynamic coordinator parses this and creates RemoteA2aAgent instances.\n    \"\"\"\n    if not REGISTRY_PATH.exists():\n        return JSONResponse({\"agents\": []})\n    data = REGISTRY_PATH.read_text()",
+        "detail": "registry_server",
+        "documentation": {}
+    },
+    {
+        "label": "REGISTRY_PATH",
+        "kind": 5,
+        "importPath": "registry_server",
+        "description": "registry_server",
+        "peekOfCode": "REGISTRY_PATH = Path(__file__).parent / \"agent_registry.json\"\napp = FastAPI(title=\"A2A Agent Registry\")\n@app.get(\"/\")\ndef root():\n    \"\"\"Health/info endpoint.\"\"\"\n    return {\"message\": \"A2A Agent Registry\", \"agents\": \"/agents\"}\n@app.get(\"/agents\")\ndef get_agents():\n    \"\"\"\n    Return the list of available agents.",
+        "detail": "registry_server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "registry_server",
+        "description": "registry_server",
+        "peekOfCode": "app = FastAPI(title=\"A2A Agent Registry\")\n@app.get(\"/\")\ndef root():\n    \"\"\"Health/info endpoint.\"\"\"\n    return {\"message\": \"A2A Agent Registry\", \"agents\": \"/agents\"}\n@app.get(\"/agents\")\ndef get_agents():\n    \"\"\"\n    Return the list of available agents.\n    Response format (same as agent_registry.json):",
+        "detail": "registry_server",
+        "documentation": {}
+    },
+    {
+        "label": "_model",
+        "kind": 5,
+        "importPath": "remote_math_agent",
+        "description": "remote_math_agent",
+        "peekOfCode": "_model = get_llm_model()\n# Standard ADK agent: name, model, and instruction define its behavior\nroot_agent = Agent(\n    name=\"math_agent\",\n    model=_model,\n    instruction=(\n        \"You are a remote math agent. \"\n        \"Answer simple arithmetic questions clearly and briefly.\"\n    ),\n)",
+        "detail": "remote_math_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "kind": 5,
+        "importPath": "remote_math_agent",
+        "description": "remote_math_agent",
+        "peekOfCode": "root_agent = Agent(\n    name=\"math_agent\",\n    model=_model,\n    instruction=(\n        \"You are a remote math agent. \"\n        \"Answer simple arithmetic questions clearly and briefly.\"\n    ),\n)\n# to_a2a() converts our agent into an A2A-compatible ASGI app.\n# - Creates routes for the A2A protocol (task submission, etc.)",
+        "detail": "remote_math_agent",
+        "documentation": {}
+    },
+    {
+        "label": "a2a_app",
+        "kind": 5,
+        "importPath": "remote_math_agent",
+        "description": "remote_math_agent",
+        "peekOfCode": "a2a_app = to_a2a(root_agent, port=8001)",
+        "detail": "remote_math_agent",
+        "documentation": {}
+    },
+    {
+        "label": "check_prime",
+        "kind": 2,
+        "importPath": "remote_prime_agent",
+        "description": "remote_prime_agent",
+        "peekOfCode": "def check_prime(nums: list[int]) -> dict[int, bool]:\n    \"\"\"\n    Check which numbers in the list are prime.\n    This function becomes an ADK tool automatically. The LLM sees its\n    signature and docstring, and can call it when the user asks about primes.\n    Algorithm: for each n, test divisibility by integers from 2 to sqrt(n).\n    Numbers < 2 are not prime.\n    Args:\n        nums: List of integers to check for primality.\n    Returns:",
+        "detail": "remote_prime_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "kind": 5,
+        "importPath": "remote_prime_agent",
+        "description": "remote_prime_agent",
+        "peekOfCode": "root_agent = Agent(\n    name=\"prime_agent\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a prime number expert. \"\n        \"Use the check_prime tool to determine if numbers are prime. \"\n        \"Answer clearly and briefly.\"\n    ),\n    tools=[check_prime],  # Register the function as a callable tool\n)",
+        "detail": "remote_prime_agent",
+        "documentation": {}
+    },
+    {
+        "label": "a2a_app",
+        "kind": 5,
+        "importPath": "remote_prime_agent",
+        "description": "remote_prime_agent",
+        "peekOfCode": "a2a_app = to_a2a(root_agent, port=8003)\n# This function does several things internally:\n    # Wraps the agent into an A2A HTTP server\n    # Generates the Agent Card metadata\n    # Exposes the agent via FastAPI endpoints\n    # Publishes the card at a well-known URL\n# So the agent card is generated inside to_a2a().\n# What to_a2a() Does Internally\n# Conceptually it performs something like this:\n# def to_a2a(agent):",
+        "detail": "remote_prime_agent",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "verify_azure",
+        "description": "verify_azure",
+        "peekOfCode": "def main() -> int:\n    \"\"\"\n    Test Azure OpenAI by sending a minimal chat completion request.\n    Returns:\n        0 on success, 1 on failure.\n    \"\"\"\n    key = os.getenv(\"AZURE_API_KEY\", \"\")\n    base = os.getenv(\"AZURE_API_BASE\", \"\")\n    deployment = get_azure_deployment()\n    print(\"Config check:\")",
+        "detail": "verify_azure",
+        "documentation": {}
+    }
+]

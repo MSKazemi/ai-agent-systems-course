@@ -1,0 +1,15 @@
+{
+  "description": "Registry of available A2A agents. The dynamic coordinator reads this at startup. Add entries to register new agents — no code change needed. agent_card must point to the agent's /.well-known/agent-card.json URL.",
+  "agents": [
+    {
+      "name": "remote_math",
+      "description": "Remote agent for arithmetic tasks",
+      "agent_card": "http://127.0.0.1:8001/.well-known/agent-card.json"
+    },
+    {
+      "name": "remote_prime",
+      "description": "Remote agent that checks if numbers are prime",
+      "agent_card": "http://127.0.0.1:8003/.well-known/agent-card.json"
+    }
+  ]
+}
