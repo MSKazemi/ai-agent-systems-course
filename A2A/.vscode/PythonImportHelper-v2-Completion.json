@@ -400,7 +400,7 @@
         "kind": 2,
         "importPath": "remote_prime_agent",
         "description": "remote_prime_agent",
-        "peekOfCode": "def check_prime(nums: list[int]) -> dict[int, bool]:\n    \"\"\"\n    Check which numbers in the list are prime.\n    This function becomes an ADK tool automatically. The LLM sees its\n    signature and docstring, and can call it when the user asks about primes.\n    Algorithm: for each n, test divisibility by integers from 2 to sqrt(n).\n    Numbers < 2 are not prime.\n    Args:\n        nums: List of integers to check for primality.\n    Returns:",
+        "peekOfCode": "def check_prime(nums: list[int]) -> dict[str, bool]:\n    \"\"\"\n    Check which numbers in the list are prime.\n    This function becomes an ADK tool automatically. The LLM sees its\n    signature and docstring, and can call it when the user asks about primes.\n    Algorithm: for each n, test divisibility by integers from 2 to sqrt(n).\n    Numbers < 2 are not prime.\n    Args:\n        nums: List of integers to check for primality.\n    Returns:",
         "detail": "remote_prime_agent",
         "documentation": {}
     },

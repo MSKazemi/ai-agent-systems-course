@@ -26,7 +26,7 @@ from google.adk.agents.llm_agent import Agent
 from google.adk.a2a.utils.agent_to_a2a import to_a2a
 
 
-def check_prime(nums: list[int]) -> dict[int, bool]:
+def check_prime(nums: list[int]) -> dict[str, bool]:
     """
     Check which numbers in the list are prime.
 
@@ -40,16 +40,17 @@ def check_prime(nums: list[int]) -> dict[int, bool]:
         nums: List of integers to check for primality.
 
     Returns:
-        Dict mapping each input number to True (prime) or False (not prime).
-        Example: check_prime([7, 8]) -> {7: True, 8: False}
+        Dict mapping each input number (as string key) to True (prime) or False (not prime).
+        Example: check_prime([7, 8]) -> {"7": True, "8": False}
+        Uses string keys for JSON compatibility (ADK/FunctionResponse requires string keys).
     """
-    result = {}
+    result: dict[str, bool] = {}
     for n in nums:
         if n < 2:
-            result[n] = False
+            result[str(n)] = False
         else:
             # Only need to check up to sqrt(n)
-            result[n] = all(n % i != 0 for i in range(2, int(n**0.5) + 1))
+            result[str(n)] = all(n % i != 0 for i in range(2, int(n**0.5) + 1))
     return result
 
 
