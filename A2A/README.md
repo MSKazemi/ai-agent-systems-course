@@ -48,7 +48,7 @@ cd ai-agent-systems-course/A2A
 Create and activate a Python virtual environment:
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate   # Linux/macOS
 # .venv\Scripts\activate    # Windows
 ```
@@ -87,18 +87,21 @@ GOOGLE_API_KEY=<from aistudio.google.com/apikey>
 **Terminal 1 — Math agent (port 8001):**
 
 ```bash
+source .venv/bin/activate   # Linux/macOS
 uvicorn remote_math_agent:a2a_app --host 127.0.0.1 --port 8001
 ```
 
 **Terminal 2 — Prime agent (port 8003):**
 
 ```bash
+source .venv/bin/activate   # Linux/macOS
 uvicorn remote_prime_agent:a2a_app --host 127.0.0.1 --port 8003
 ```
 
 **Terminal 3 — Coordinator (chat UI):**
 
 ```bash
+source .venv/bin/activate   # Linux/macOS
 adk web . --port 8002
 ```
 
@@ -127,6 +130,17 @@ python verify_azure.py
 | Port in use | Use `adk web . --port 8003` |
 | Azure 401 | Regenerate key in Azure Portal, update `.env` |
 | Remote unreachable | Start both uvicorn servers (8001, 8003) before adk web |
+| `pip: cannot execute: required file not found` | Recreate venv (see below) |
+
+**Recreate broken venv:**
+
+```bash
+deactivate
+rm -rf .venv
+python3 -m venv .venv
+source .venv/bin/activate   # Linux/macOS
+pip install -r requirements.txt
+```
 
 ---
 
