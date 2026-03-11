@@ -45,6 +45,16 @@ cd ai-agent-systems-course/A2A
 
 ### 1. Install
 
+Create and activate a Python virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Linux/macOS
+# .venv\Scripts\activate    # Windows
+```
+
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
