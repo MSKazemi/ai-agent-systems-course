@@ -1,0 +1,946 @@
+[
+    {
+        "label": "root_agent",
+        "importPath": "coordinator_agent",
+        "description": "coordinator_agent",
+        "isExtraImport": true,
+        "detail": "coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "importPath": "dynamic_coordinator_agent",
+        "description": "dynamic_coordinator_agent",
+        "isExtraImport": true,
+        "detail": "dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_azure_deployment",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "is_azure_configured",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "google.adk.agents.llm_agent",
+        "description": "google.adk.agents.llm_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.llm_agent",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "google.adk.agents.llm_agent",
+        "description": "google.adk.agents.llm_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.llm_agent",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "google.adk.agents.llm_agent",
+        "description": "google.adk.agents.llm_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.llm_agent",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "google.adk.agents.llm_agent",
+        "description": "google.adk.agents.llm_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.llm_agent",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteA2aAgent",
+        "importPath": "google.adk.agents.remote_a2a_agent",
+        "description": "google.adk.agents.remote_a2a_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.remote_a2a_agent",
+        "documentation": {}
+    },
+    {
+        "label": "AGENT_CARD_WELL_KNOWN_PATH",
+        "importPath": "google.adk.agents.remote_a2a_agent",
+        "description": "google.adk.agents.remote_a2a_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.remote_a2a_agent",
+        "documentation": {}
+    },
+    {
+        "label": "RemoteA2aAgent",
+        "importPath": "google.adk.agents.remote_a2a_agent",
+        "description": "google.adk.agents.remote_a2a_agent",
+        "isExtraImport": true,
+        "detail": "google.adk.agents.remote_a2a_agent",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "NamedTuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "to_a2a",
+        "importPath": "google.adk.a2a.utils.agent_to_a2a",
+        "description": "google.adk.a2a.utils.agent_to_a2a",
+        "isExtraImport": true,
+        "detail": "google.adk.a2a.utils.agent_to_a2a",
+        "documentation": {}
+    },
+    {
+        "label": "to_a2a",
+        "importPath": "google.adk.a2a.utils.agent_to_a2a",
+        "description": "google.adk.a2a.utils.agent_to_a2a",
+        "isExtraImport": true,
+        "detail": "google.adk.a2a.utils.agent_to_a2a",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "FastMCP",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "FastMCP",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "FastMCP",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "FastMCP",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "FastMCP",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "FastMCP",
+        "importPath": "fastmcp",
+        "description": "fastmcp",
+        "isExtraImport": true,
+        "detail": "fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "mcp",
+        "importPath": "server",
+        "description": "server",
+        "isExtraImport": true,
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "mcp",
+        "importPath": "server",
+        "description": "server",
+        "isExtraImport": true,
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "math_remote",
+        "kind": 5,
+        "importPath": "A2A.coordinator_agent",
+        "description": "A2A.coordinator_agent",
+        "peekOfCode": "math_remote = RemoteA2aAgent(\n    name=\"remote_math\",\n    description=\"Remote agent for arithmetic tasks\",\n    agent_card=f\"http://127.0.0.1:8001{AGENT_CARD_WELL_KNOWN_PATH}\",\n)\nprime_remote = RemoteA2aAgent(\n    name=\"remote_prime\",\n    description=\"Remote agent that checks if numbers are prime\",\n    agent_card=f\"http://127.0.0.1:8003{AGENT_CARD_WELL_KNOWN_PATH}\",\n)",
+        "detail": "A2A.coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "prime_remote",
+        "kind": 5,
+        "importPath": "A2A.coordinator_agent",
+        "description": "A2A.coordinator_agent",
+        "peekOfCode": "prime_remote = RemoteA2aAgent(\n    name=\"remote_prime\",\n    description=\"Remote agent that checks if numbers are prime\",\n    agent_card=f\"http://127.0.0.1:8003{AGENT_CARD_WELL_KNOWN_PATH}\",\n)\n# --- Coordinator: delegates to sub_agents based on user question ---\nroot_agent = Agent(\n    name=\"coordinator\",\n    model=get_llm_model(),\n    instruction=(",
+        "detail": "A2A.coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "kind": 5,
+        "importPath": "A2A.coordinator_agent",
+        "description": "A2A.coordinator_agent",
+        "peekOfCode": "root_agent = Agent(\n    name=\"coordinator\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a coordinator agent. \"\n        \"For arithmetic questions, delegate to remote_math. \"\n        \"For prime-checking questions (e.g. 'is 17 prime?'), delegate to remote_prime.\"\n    ),\n    sub_agents=[math_remote, prime_remote],\n)",
+        "detail": "A2A.coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "load_agents_from_registry",
+        "kind": 2,
+        "importPath": "A2A.dynamic_coordinator_agent",
+        "description": "A2A.dynamic_coordinator_agent",
+        "peekOfCode": "def load_agents_from_registry(\n    registry_path: Path | str | None = None,\n    registry_url: str | None = None,\n) -> list[RemoteA2aAgent]:\n    \"\"\"\n    Load RemoteA2aAgent instances from a registry (file or HTTP).\n    Registry format:\n        {\"agents\": [{\"name\": \"...\", \"description\": \"...\", \"agent_card\": \"http://...\"}]}\n    Resolution order:\n        1. registry_url arg (if provided)",
+        "detail": "A2A.dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "REGISTRY_PATH",
+        "kind": 5,
+        "importPath": "A2A.dynamic_coordinator_agent",
+        "description": "A2A.dynamic_coordinator_agent",
+        "peekOfCode": "REGISTRY_PATH = Path(__file__).parent / \"agent_registry.json\"\ndef load_agents_from_registry(\n    registry_path: Path | str | None = None,\n    registry_url: str | None = None,\n) -> list[RemoteA2aAgent]:\n    \"\"\"\n    Load RemoteA2aAgent instances from a registry (file or HTTP).\n    Registry format:\n        {\"agents\": [{\"name\": \"...\", \"description\": \"...\", \"agent_card\": \"http://...\"}]}\n    Resolution order:",
+        "detail": "A2A.dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "sub_agents",
+        "kind": 5,
+        "importPath": "A2A.dynamic_coordinator_agent",
+        "description": "A2A.dynamic_coordinator_agent",
+        "peekOfCode": "sub_agents = load_agents_from_registry()\n# Build instruction dynamically so the LLM knows what agents exist\nagent_summary = \", \".join(f\"{a.name} ({a.description})\" for a in sub_agents) if sub_agents else \"none\"\nroot_agent = Agent(\n    name=\"dynamic_coordinator\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a coordinator agent. Delegate tasks to the appropriate sub-agent. \"\n        f\"Available agents: {agent_summary}. \"\n        \"Choose the best agent for each user request.\"",
+        "detail": "A2A.dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "agent_summary",
+        "kind": 5,
+        "importPath": "A2A.dynamic_coordinator_agent",
+        "description": "A2A.dynamic_coordinator_agent",
+        "peekOfCode": "agent_summary = \", \".join(f\"{a.name} ({a.description})\" for a in sub_agents) if sub_agents else \"none\"\nroot_agent = Agent(\n    name=\"dynamic_coordinator\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a coordinator agent. Delegate tasks to the appropriate sub-agent. \"\n        f\"Available agents: {agent_summary}. \"\n        \"Choose the best agent for each user request.\"\n    ),\n    sub_agents=sub_agents,",
+        "detail": "A2A.dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "kind": 5,
+        "importPath": "A2A.dynamic_coordinator_agent",
+        "description": "A2A.dynamic_coordinator_agent",
+        "peekOfCode": "root_agent = Agent(\n    name=\"dynamic_coordinator\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a coordinator agent. Delegate tasks to the appropriate sub-agent. \"\n        f\"Available agents: {agent_summary}. \"\n        \"Choose the best agent for each user request.\"\n    ),\n    sub_agents=sub_agents,\n)",
+        "detail": "A2A.dynamic_coordinator_agent",
+        "documentation": {}
+    },
+    {
+        "label": "get_azure_deployment",
+        "kind": 2,
+        "importPath": "A2A.llm_config",
+        "description": "A2A.llm_config",
+        "peekOfCode": "def get_azure_deployment() -> str:\n    \"\"\"\n    Return the Azure OpenAI deployment name for chat completions.\n    Used when building the LiteLLM model string: azure/<deployment>\n    \"\"\"\n    return os.getenv(\"AZURE_PRIMARY_LLM_DEPLOYMENT_NAME\", \"gpt-4o\")\ndef is_azure_configured() -> bool:\n    \"\"\"\n    Check if Azure credentials are available (after normalizing env vars).\n    \"\"\"",
+        "detail": "A2A.llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "is_azure_configured",
+        "kind": 2,
+        "importPath": "A2A.llm_config",
+        "description": "A2A.llm_config",
+        "peekOfCode": "def is_azure_configured() -> bool:\n    \"\"\"\n    Check if Azure credentials are available (after normalizing env vars).\n    \"\"\"\n    _normalize_azure_env()\n    return bool(os.getenv(\"AZURE_API_KEY\") and os.getenv(\"AZURE_API_BASE\"))\ndef get_llm_model() -> Any:\n    \"\"\"\n    Return the LLM model object/string for ADK Agent.\n    Selection logic:",
+        "detail": "A2A.llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "kind": 2,
+        "importPath": "A2A.llm_config",
+        "description": "A2A.llm_config",
+        "peekOfCode": "def get_llm_model() -> Any:\n    \"\"\"\n    Return the LLM model object/string for ADK Agent.\n    Selection logic:\n        - LLM_PROVIDER=azure   → Azure OpenAI via LiteLLM (requires Azure env vars)\n        - LLM_PROVIDER=gemini  → \"gemini-2.0-flash\" (requires GOOGLE_API_KEY)\n        - Unset                → Azure if configured, else Gemini\n    Returns:\n        Either LiteLlm(model=\"azure/gpt-4o\") or \"gemini-2.0-flash\"\n    \"\"\"",
+        "detail": "A2A.llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "A2A.registry_server",
+        "description": "A2A.registry_server",
+        "peekOfCode": "def root():\n    \"\"\"Health/info endpoint.\"\"\"\n    return {\"message\": \"A2A Agent Registry\", \"agents\": \"/agents\"}\n@app.get(\"/agents\")\ndef get_agents():\n    \"\"\"\n    Return the list of available agents.\n    Response format (same as agent_registry.json):\n        {\"description\": \"...\", \"agents\": [{\"name\": \"...\", \"description\": \"...\", \"agent_card\": \"...\"}]}\n    The dynamic coordinator parses this and creates RemoteA2aAgent instances.",
+        "detail": "A2A.registry_server",
+        "documentation": {}
+    },
+    {
+        "label": "get_agents",
+        "kind": 2,
+        "importPath": "A2A.registry_server",
+        "description": "A2A.registry_server",
+        "peekOfCode": "def get_agents():\n    \"\"\"\n    Return the list of available agents.\n    Response format (same as agent_registry.json):\n        {\"description\": \"...\", \"agents\": [{\"name\": \"...\", \"description\": \"...\", \"agent_card\": \"...\"}]}\n    The dynamic coordinator parses this and creates RemoteA2aAgent instances.\n    \"\"\"\n    if not REGISTRY_PATH.exists():\n        return JSONResponse({\"agents\": []})\n    data = REGISTRY_PATH.read_text()",
+        "detail": "A2A.registry_server",
+        "documentation": {}
+    },
+    {
+        "label": "REGISTRY_PATH",
+        "kind": 5,
+        "importPath": "A2A.registry_server",
+        "description": "A2A.registry_server",
+        "peekOfCode": "REGISTRY_PATH = Path(__file__).parent / \"agent_registry.json\"\napp = FastAPI(title=\"A2A Agent Registry\")\n@app.get(\"/\")\ndef root():\n    \"\"\"Health/info endpoint.\"\"\"\n    return {\"message\": \"A2A Agent Registry\", \"agents\": \"/agents\"}\n@app.get(\"/agents\")\ndef get_agents():\n    \"\"\"\n    Return the list of available agents.",
+        "detail": "A2A.registry_server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "A2A.registry_server",
+        "description": "A2A.registry_server",
+        "peekOfCode": "app = FastAPI(title=\"A2A Agent Registry\")\n@app.get(\"/\")\ndef root():\n    \"\"\"Health/info endpoint.\"\"\"\n    return {\"message\": \"A2A Agent Registry\", \"agents\": \"/agents\"}\n@app.get(\"/agents\")\ndef get_agents():\n    \"\"\"\n    Return the list of available agents.\n    Response format (same as agent_registry.json):",
+        "detail": "A2A.registry_server",
+        "documentation": {}
+    },
+    {
+        "label": "_model",
+        "kind": 5,
+        "importPath": "A2A.remote_math_agent",
+        "description": "A2A.remote_math_agent",
+        "peekOfCode": "_model = get_llm_model()\n# Standard ADK agent: name, model, and instruction define its behavior\nroot_agent = Agent(\n    name=\"math_agent\",\n    model=_model,\n    instruction=(\n        \"You are a remote math agent. \"\n        \"Answer simple arithmetic questions clearly and briefly.\"\n    ),\n)",
+        "detail": "A2A.remote_math_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "kind": 5,
+        "importPath": "A2A.remote_math_agent",
+        "description": "A2A.remote_math_agent",
+        "peekOfCode": "root_agent = Agent(\n    name=\"math_agent\",\n    model=_model,\n    instruction=(\n        \"You are a remote math agent. \"\n        \"Answer simple arithmetic questions clearly and briefly.\"\n    ),\n)\n# to_a2a() converts our agent into an A2A-compatible ASGI app.\n# - Creates routes for the A2A protocol (task submission, etc.)",
+        "detail": "A2A.remote_math_agent",
+        "documentation": {}
+    },
+    {
+        "label": "a2a_app",
+        "kind": 5,
+        "importPath": "A2A.remote_math_agent",
+        "description": "A2A.remote_math_agent",
+        "peekOfCode": "a2a_app = to_a2a(root_agent, port=8001)",
+        "detail": "A2A.remote_math_agent",
+        "documentation": {}
+    },
+    {
+        "label": "check_prime",
+        "kind": 2,
+        "importPath": "A2A.remote_prime_agent",
+        "description": "A2A.remote_prime_agent",
+        "peekOfCode": "def check_prime(nums: list[int]) -> dict[int, bool]:\n    \"\"\"\n    Check which numbers in the list are prime.\n    This function becomes an ADK tool automatically. The LLM sees its\n    signature and docstring, and can call it when the user asks about primes.\n    Algorithm: for each n, test divisibility by integers from 2 to sqrt(n).\n    Numbers < 2 are not prime.\n    Args:\n        nums: List of integers to check for primality.\n    Returns:",
+        "detail": "A2A.remote_prime_agent",
+        "documentation": {}
+    },
+    {
+        "label": "root_agent",
+        "kind": 5,
+        "importPath": "A2A.remote_prime_agent",
+        "description": "A2A.remote_prime_agent",
+        "peekOfCode": "root_agent = Agent(\n    name=\"prime_agent\",\n    model=get_llm_model(),\n    instruction=(\n        \"You are a prime number expert. \"\n        \"Use the check_prime tool to determine if numbers are prime. \"\n        \"Answer clearly and briefly.\"\n    ),\n    tools=[check_prime],  # Register the function as a callable tool\n)",
+        "detail": "A2A.remote_prime_agent",
+        "documentation": {}
+    },
+    {
+        "label": "a2a_app",
+        "kind": 5,
+        "importPath": "A2A.remote_prime_agent",
+        "description": "A2A.remote_prime_agent",
+        "peekOfCode": "a2a_app = to_a2a(root_agent, port=8003)\n# This function does several things internally:\n    # Wraps the agent into an A2A HTTP server\n    # Generates the Agent Card metadata\n    # Exposes the agent via FastAPI endpoints\n    # Publishes the card at a well-known URL\n# So the agent card is generated inside to_a2a().\n# What to_a2a() Does Internally\n# Conceptually it performs something like this:\n# def to_a2a(agent):",
+        "detail": "A2A.remote_prime_agent",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "A2A.verify_azure",
+        "description": "A2A.verify_azure",
+        "peekOfCode": "def main() -> int:\n    \"\"\"\n    Test Azure OpenAI by sending a minimal chat completion request.\n    Returns:\n        0 on success, 1 on failure.\n    \"\"\"\n    key = os.getenv(\"AZURE_API_KEY\", \"\")\n    base = os.getenv(\"AZURE_API_BASE\", \"\")\n    deployment = get_azure_deployment()\n    print(\"Config check:\")",
+        "detail": "A2A.verify_azure",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "MCP.examples.01-calculator.client",
+        "description": "MCP.examples.01-calculator.client",
+        "peekOfCode": "client = Client(mcp)\nasync def main():\n    \"\"\"main is async because we use await inside.\"\"\"\n    # async with client: connect when we enter, disconnect when we leave\n    async with client:\n        # await: wait for this to finish before moving on\n        tools = await client.list_tools()\n        print(f\"Tools: {[t.name for t in tools]}\")\n        result = await client.call_tool(\"add\", {\"a\": 3, \"b\": 7})\n        print(f\"add(3, 7) => {result.data}\")",
+        "detail": "MCP.examples.01-calculator.client",
+        "documentation": {}
+    },
+    {
+        "label": "ToolCall",
+        "kind": 6,
+        "importPath": "MCP.examples.01-calculator.demo",
+        "description": "MCP.examples.01-calculator.demo",
+        "peekOfCode": "class ToolCall(NamedTuple):\n    tool: str\n    arguments: dict\ndef fake_llm(user_input: str) -> ToolCall | None:\n    \"\"\"Parse user input → tool call. e.g. 'add 4 and 5' → add(4, 5).\"\"\"\n    inp = user_input.strip().lower()\n    if m := re.search(r\"add\\s+(\\d+)\\s+(?:and\\s+)?(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})\n    if m := re.search(r\"(\\d+)\\s*\\+\\s*(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})",
+        "detail": "MCP.examples.01-calculator.demo",
+        "documentation": {}
+    },
+    {
+        "label": "fake_llm",
+        "kind": 2,
+        "importPath": "MCP.examples.01-calculator.demo",
+        "description": "MCP.examples.01-calculator.demo",
+        "peekOfCode": "def fake_llm(user_input: str) -> ToolCall | None:\n    \"\"\"Parse user input → tool call. e.g. 'add 4 and 5' → add(4, 5).\"\"\"\n    inp = user_input.strip().lower()\n    if m := re.search(r\"add\\s+(\\d+)\\s+(?:and\\s+)?(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})\n    if m := re.search(r\"(\\d+)\\s*\\+\\s*(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})\n    if m := re.search(r\"subtract\\s+(\\d+)\\s+(\\d+)\", inp):\n        return ToolCall(\"subtract\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})\n    if m := re.search(r\"(\\d+)\\s+minus\\s+(\\d+)\", inp):",
+        "detail": "MCP.examples.01-calculator.demo",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "MCP.examples.01-calculator.demo",
+        "description": "MCP.examples.01-calculator.demo",
+        "peekOfCode": "def main():\n    print(\"Full MCP demo (Fake LLM + FastMCP Client + Server)\")\n    print(\"Try: 'add 4 and 5'  |  'subtract 10 3'  |  'quit'\")\n    print(\"-\" * 50)\n    while True:\n        try:\n            user_input = input(\"\\nYou: \").strip()\n        except (EOFError, KeyboardInterrupt):\n            print(\"\\nBye!\")\n            break",
+        "detail": "MCP.examples.01-calculator.demo",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "MCP.examples.01-calculator.demo",
+        "description": "MCP.examples.01-calculator.demo",
+        "peekOfCode": "client = Client(mcp)\n# NamedTuple: a simple way to group tool name and arguments together\nclass ToolCall(NamedTuple):\n    tool: str\n    arguments: dict\ndef fake_llm(user_input: str) -> ToolCall | None:\n    \"\"\"Parse user input → tool call. e.g. 'add 4 and 5' → add(4, 5).\"\"\"\n    inp = user_input.strip().lower()\n    if m := re.search(r\"add\\s+(\\d+)\\s+(?:and\\s+)?(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})",
+        "detail": "MCP.examples.01-calculator.demo",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "MCP.examples.01-calculator.server",
+        "description": "MCP.examples.01-calculator.server",
+        "peekOfCode": "def add(a: int, b: int) -> int:\n    \"\"\"Add two integers.\"\"\"\n    return a + b\n@mcp.tool()  # register subtract as a tool clients can call\ndef subtract(a: int, b: int) -> int:\n    \"\"\"Subtract b from a.\"\"\"\n    return a - b\nif __name__ == \"__main__\":\n    # start the server\n    mcp.run()",
+        "detail": "MCP.examples.01-calculator.server",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "MCP.examples.01-calculator.server",
+        "description": "MCP.examples.01-calculator.server",
+        "peekOfCode": "def subtract(a: int, b: int) -> int:\n    \"\"\"Subtract b from a.\"\"\"\n    return a - b\nif __name__ == \"__main__\":\n    # start the server\n    mcp.run()",
+        "detail": "MCP.examples.01-calculator.server",
+        "documentation": {}
+    },
+    {
+        "label": "mcp",
+        "kind": 5,
+        "importPath": "MCP.examples.01-calculator.server",
+        "description": "MCP.examples.01-calculator.server",
+        "peekOfCode": "mcp = FastMCP(\"Calculator\")\n@mcp.tool()  # register add as a tool clients can call\ndef add(a: int, b: int) -> int:\n    \"\"\"Add two integers.\"\"\"\n    return a + b\n@mcp.tool()  # register subtract as a tool clients can call\ndef subtract(a: int, b: int) -> int:\n    \"\"\"Subtract b from a.\"\"\"\n    return a - b\nif __name__ == \"__main__\":",
+        "detail": "MCP.examples.01-calculator.server",
+        "documentation": {}
+    },
+    {
+        "label": "EXAMPLE_DIR",
+        "kind": 5,
+        "importPath": "MCP.examples.02-calculator-advanced.client",
+        "description": "MCP.examples.02-calculator-advanced.client",
+        "peekOfCode": "EXAMPLE_DIR = Path(__file__).resolve().parent\nsys.path.insert(0, str(EXAMPLE_DIR))\nfrom fastmcp import Client\n# STDIO: pass server path; client spawns it as subprocess and talks over stdin/stdout\nclient = Client(str(EXAMPLE_DIR / \"server.py\"))\nasync def main():\n    async with client:  # connect when entering, disconnect when leaving\n        # Server info (from handshake when connecting)\n        info = client.initialize_result.serverInfo\n        print(f\"Server: {info.name}\")",
+        "detail": "MCP.examples.02-calculator-advanced.client",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "MCP.examples.02-calculator-advanced.client",
+        "description": "MCP.examples.02-calculator-advanced.client",
+        "peekOfCode": "client = Client(str(EXAMPLE_DIR / \"server.py\"))\nasync def main():\n    async with client:  # connect when entering, disconnect when leaving\n        # Server info (from handshake when connecting)\n        info = client.initialize_result.serverInfo\n        print(f\"Server: {info.name}\")\n        # Tools\n        tools = await client.list_tools()\n        print(f\"Tools: {[t.name for t in tools]}\")\n        # Resource: read-only data the server exposes (like a file or info page)",
+        "detail": "MCP.examples.02-calculator-advanced.client",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "MCP.examples.02-calculator-advanced.server",
+        "description": "MCP.examples.02-calculator-advanced.server",
+        "peekOfCode": "def add(a: int, b: int) -> int:\n    \"\"\"Add two integers.\"\"\"\n    return a + b\n@mcp.tool()\ndef subtract(a: int, b: int) -> int:\n    \"\"\"Subtract b from a.\"\"\"\n    return a - b\n@mcp.tool()\ndef multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two integers.\"\"\"",
+        "detail": "MCP.examples.02-calculator-advanced.server",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "MCP.examples.02-calculator-advanced.server",
+        "description": "MCP.examples.02-calculator-advanced.server",
+        "peekOfCode": "def subtract(a: int, b: int) -> int:\n    \"\"\"Subtract b from a.\"\"\"\n    return a - b\n@mcp.tool()\ndef multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two integers.\"\"\"\n    return a * b\n@mcp.tool()\ndef divide(a: int, b: int) -> float:\n    \"\"\"Divide a by b. Returns float.\"\"\"",
+        "detail": "MCP.examples.02-calculator-advanced.server",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "MCP.examples.02-calculator-advanced.server",
+        "description": "MCP.examples.02-calculator-advanced.server",
+        "peekOfCode": "def multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two integers.\"\"\"\n    return a * b\n@mcp.tool()\ndef divide(a: int, b: int) -> float:\n    \"\"\"Divide a by b. Returns float.\"\"\"\n    if b == 0:\n        raise ValueError(\"Cannot divide by zero\")\n    return a / b\n@mcp.resource(\"calc://info\")  # expose data at this URI; clients read it",
+        "detail": "MCP.examples.02-calculator-advanced.server",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "MCP.examples.02-calculator-advanced.server",
+        "description": "MCP.examples.02-calculator-advanced.server",
+        "peekOfCode": "def divide(a: int, b: int) -> float:\n    \"\"\"Divide a by b. Returns float.\"\"\"\n    if b == 0:\n        raise ValueError(\"Cannot divide by zero\")\n    return a / b\n@mcp.resource(\"calc://info\")  # expose data at this URI; clients read it\ndef calculator_info() -> str:\n    \"\"\"Info about this calculator.\"\"\"\n    return \"Calculator Advanced v1.0 – add, subtract, multiply, divide\"\n@mcp.prompt()  # expose a prompt template clients can use",
+        "detail": "MCP.examples.02-calculator-advanced.server",
+        "documentation": {}
+    },
+    {
+        "label": "calculator_info",
+        "kind": 2,
+        "importPath": "MCP.examples.02-calculator-advanced.server",
+        "description": "MCP.examples.02-calculator-advanced.server",
+        "peekOfCode": "def calculator_info() -> str:\n    \"\"\"Info about this calculator.\"\"\"\n    return \"Calculator Advanced v1.0 – add, subtract, multiply, divide\"\n@mcp.prompt()  # expose a prompt template clients can use\ndef compute_expression(expression: str) -> str:\n    \"\"\"Create a prompt to compute a math expression.\"\"\"\n    return f\"Compute the following: {expression}\"\nif __name__ == \"__main__\":\n    mcp.run()",
+        "detail": "MCP.examples.02-calculator-advanced.server",
+        "documentation": {}
+    },
+    {
+        "label": "compute_expression",
+        "kind": 2,
+        "importPath": "MCP.examples.02-calculator-advanced.server",
+        "description": "MCP.examples.02-calculator-advanced.server",
+        "peekOfCode": "def compute_expression(expression: str) -> str:\n    \"\"\"Create a prompt to compute a math expression.\"\"\"\n    return f\"Compute the following: {expression}\"\nif __name__ == \"__main__\":\n    mcp.run()",
+        "detail": "MCP.examples.02-calculator-advanced.server",
+        "documentation": {}
+    },
+    {
+        "label": "mcp",
+        "kind": 5,
+        "importPath": "MCP.examples.02-calculator-advanced.server",
+        "description": "MCP.examples.02-calculator-advanced.server",
+        "peekOfCode": "mcp = FastMCP(\n    name=\"Calculator Advanced\",\n    instructions=\"Use these tools for basic math. Call compute for expressions.\",\n)\n@mcp.tool()\ndef add(a: int, b: int) -> int:\n    \"\"\"Add two integers.\"\"\"\n    return a + b\n@mcp.tool()\ndef subtract(a: int, b: int) -> int:",
+        "detail": "MCP.examples.02-calculator-advanced.server",
+        "documentation": {}
+    },
+    {
+        "label": "EXAMPLE_DIR",
+        "kind": 5,
+        "importPath": "MCP.examples.03-file-reader.client",
+        "description": "MCP.examples.03-file-reader.client",
+        "peekOfCode": "EXAMPLE_DIR = Path(__file__).resolve().parent\nclient = Client(str(EXAMPLE_DIR / \"server.py\"))  # STDIO: pass server path\nasync def main():\n    async with client:  # connect, then disconnect when done\n        tools = await client.list_tools()\n        print(f\"Tools: {[t.name for t in tools]}\")\n        result = await client.call_tool(\n            \"read_file\",\n            {\"path\": str(EXAMPLE_DIR / \"README.md\")},\n        )",
+        "detail": "MCP.examples.03-file-reader.client",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "MCP.examples.03-file-reader.client",
+        "description": "MCP.examples.03-file-reader.client",
+        "peekOfCode": "client = Client(str(EXAMPLE_DIR / \"server.py\"))  # STDIO: pass server path\nasync def main():\n    async with client:  # connect, then disconnect when done\n        tools = await client.list_tools()\n        print(f\"Tools: {[t.name for t in tools]}\")\n        result = await client.call_tool(\n            \"read_file\",\n            {\"path\": str(EXAMPLE_DIR / \"README.md\")},\n        )\n        print(f\"read_file(README.md) =>\\n{result.data[:200]}...\")",
+        "detail": "MCP.examples.03-file-reader.client",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "MCP.examples.03-file-reader.server",
+        "description": "MCP.examples.03-file-reader.server",
+        "peekOfCode": "def read_file(path: str) -> str:\n    \"\"\"Read the contents of a file. Provide a path relative to current directory or absolute.\"\"\"\n    p = Path(path)\n    if not p.exists():\n        return f\"Error: File not found: {path}\"\n    if not p.is_file():\n        return f\"Error: Not a file: {path}\"\n    try:\n        return p.read_text()\n    except Exception as e:",
+        "detail": "MCP.examples.03-file-reader.server",
+        "documentation": {}
+    },
+    {
+        "label": "mcp",
+        "kind": 5,
+        "importPath": "MCP.examples.03-file-reader.server",
+        "description": "MCP.examples.03-file-reader.server",
+        "peekOfCode": "mcp = FastMCP(\"File Reader\")\n@mcp.tool()  # register as tool clients can call\ndef read_file(path: str) -> str:\n    \"\"\"Read the contents of a file. Provide a path relative to current directory or absolute.\"\"\"\n    p = Path(path)\n    if not p.exists():\n        return f\"Error: File not found: {path}\"\n    if not p.is_file():\n        return f\"Error: Not a file: {path}\"\n    try:",
+        "detail": "MCP.examples.03-file-reader.server",
+        "documentation": {}
+    },
+    {
+        "label": "EXAMPLE_DIR",
+        "kind": 5,
+        "importPath": "MCP.examples.04-sqlite-tool.client",
+        "description": "MCP.examples.04-sqlite-tool.client",
+        "peekOfCode": "EXAMPLE_DIR = Path(__file__).resolve().parent\nclient = Client(str(EXAMPLE_DIR / \"server.py\"))\nasync def main():\n    async with client:  # connect, run, disconnect\n        tools = await client.list_tools()\n        print(f\"Tools: {[t.name for t in tools]}\")\n        result = await client.call_tool(\n            \"sql_query\",\n            {\"query\": \"SELECT * FROM tasks\"},\n        )",
+        "detail": "MCP.examples.04-sqlite-tool.client",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "MCP.examples.04-sqlite-tool.client",
+        "description": "MCP.examples.04-sqlite-tool.client",
+        "peekOfCode": "client = Client(str(EXAMPLE_DIR / \"server.py\"))\nasync def main():\n    async with client:  # connect, run, disconnect\n        tools = await client.list_tools()\n        print(f\"Tools: {[t.name for t in tools]}\")\n        result = await client.call_tool(\n            \"sql_query\",\n            {\"query\": \"SELECT * FROM tasks\"},\n        )\n        print(f\"sql_query(SELECT * FROM tasks) =>\\n{result.data}\")",
+        "detail": "MCP.examples.04-sqlite-tool.client",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "kind": 2,
+        "importPath": "MCP.examples.04-sqlite-tool.server",
+        "description": "MCP.examples.04-sqlite-tool.server",
+        "peekOfCode": "def get_connection():\n    \"\"\"Get a connection to the SQLite database.\"\"\"\n    return sqlite3.connect(DB_PATH)\n@mcp.tool()\ndef sql_query(query: str) -> str:  # only SELECT allowed; no INSERT/UPDATE/DELETE\n    \"\"\"Execute a read-only SQL query on the sample database. Use SELECT only.\"\"\"\n    if \";\" in query and \"SELECT\" not in query.upper().split(\";\")[0]:\n        return \"Error: Only SELECT queries are allowed.\"\n    if \"INSERT\" in query.upper() or \"UPDATE\" in query.upper() or \"DELETE\" in query.upper():\n        return \"Error: Write operations are not allowed.\"",
+        "detail": "MCP.examples.04-sqlite-tool.server",
+        "documentation": {}
+    },
+    {
+        "label": "sql_query",
+        "kind": 2,
+        "importPath": "MCP.examples.04-sqlite-tool.server",
+        "description": "MCP.examples.04-sqlite-tool.server",
+        "peekOfCode": "def sql_query(query: str) -> str:  # only SELECT allowed; no INSERT/UPDATE/DELETE\n    \"\"\"Execute a read-only SQL query on the sample database. Use SELECT only.\"\"\"\n    if \";\" in query and \"SELECT\" not in query.upper().split(\";\")[0]:\n        return \"Error: Only SELECT queries are allowed.\"\n    if \"INSERT\" in query.upper() or \"UPDATE\" in query.upper() or \"DELETE\" in query.upper():\n        return \"Error: Write operations are not allowed.\"\n    try:\n        conn = get_connection()  # open connection\n        cur = conn.execute(query)\n        rows = cur.fetchall()",
+        "detail": "MCP.examples.04-sqlite-tool.server",
+        "documentation": {}
+    },
+    {
+        "label": "DB_PATH",
+        "kind": 5,
+        "importPath": "MCP.examples.04-sqlite-tool.server",
+        "description": "MCP.examples.04-sqlite-tool.server",
+        "peekOfCode": "DB_PATH = Path(__file__).parent / \"database.db\"\nmcp = FastMCP(\"SQLite Tool\")\ndef get_connection():\n    \"\"\"Get a connection to the SQLite database.\"\"\"\n    return sqlite3.connect(DB_PATH)\n@mcp.tool()\ndef sql_query(query: str) -> str:  # only SELECT allowed; no INSERT/UPDATE/DELETE\n    \"\"\"Execute a read-only SQL query on the sample database. Use SELECT only.\"\"\"\n    if \";\" in query and \"SELECT\" not in query.upper().split(\";\")[0]:\n        return \"Error: Only SELECT queries are allowed.\"",
+        "detail": "MCP.examples.04-sqlite-tool.server",
+        "documentation": {}
+    },
+    {
+        "label": "mcp",
+        "kind": 5,
+        "importPath": "MCP.examples.04-sqlite-tool.server",
+        "description": "MCP.examples.04-sqlite-tool.server",
+        "peekOfCode": "mcp = FastMCP(\"SQLite Tool\")\ndef get_connection():\n    \"\"\"Get a connection to the SQLite database.\"\"\"\n    return sqlite3.connect(DB_PATH)\n@mcp.tool()\ndef sql_query(query: str) -> str:  # only SELECT allowed; no INSERT/UPDATE/DELETE\n    \"\"\"Execute a read-only SQL query on the sample database. Use SELECT only.\"\"\"\n    if \";\" in query and \"SELECT\" not in query.upper().split(\";\")[0]:\n        return \"Error: Only SELECT queries are allowed.\"\n    if \"INSERT\" in query.upper() or \"UPDATE\" in query.upper() or \"DELETE\" in query.upper():",
+        "detail": "MCP.examples.04-sqlite-tool.server",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "MCP.solutions.solution-01.server",
+        "description": "MCP.solutions.solution-01.server",
+        "peekOfCode": "def add(a: int, b: int) -> int:\n    \"\"\"Add two integers.\"\"\"\n    return a + b\n@mcp.tool()\ndef subtract(a: int, b: int) -> int:\n    \"\"\"Subtract b from a.\"\"\"\n    return a - b\n@mcp.tool()\ndef multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two integers.\"\"\"",
+        "detail": "MCP.solutions.solution-01.server",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "MCP.solutions.solution-01.server",
+        "description": "MCP.solutions.solution-01.server",
+        "peekOfCode": "def subtract(a: int, b: int) -> int:\n    \"\"\"Subtract b from a.\"\"\"\n    return a - b\n@mcp.tool()\ndef multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two integers.\"\"\"\n    return a * b\nif __name__ == \"__main__\":\n    mcp.run()  # start the server",
+        "detail": "MCP.solutions.solution-01.server",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "MCP.solutions.solution-01.server",
+        "description": "MCP.solutions.solution-01.server",
+        "peekOfCode": "def multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two integers.\"\"\"\n    return a * b\nif __name__ == \"__main__\":\n    mcp.run()  # start the server",
+        "detail": "MCP.solutions.solution-01.server",
+        "documentation": {}
+    },
+    {
+        "label": "mcp",
+        "kind": 5,
+        "importPath": "MCP.solutions.solution-01.server",
+        "description": "MCP.solutions.solution-01.server",
+        "peekOfCode": "mcp = FastMCP(\"Calculator\")\n@mcp.tool()  # register as MCP tool\ndef add(a: int, b: int) -> int:\n    \"\"\"Add two integers.\"\"\"\n    return a + b\n@mcp.tool()\ndef subtract(a: int, b: int) -> int:\n    \"\"\"Subtract b from a.\"\"\"\n    return a - b\n@mcp.tool()",
+        "detail": "MCP.solutions.solution-01.server",
+        "documentation": {}
+    },
+    {
+        "label": "create_note",
+        "kind": 2,
+        "importPath": "MCP.solutions.solution-03.server",
+        "description": "MCP.solutions.solution-03.server",
+        "peekOfCode": "def create_note(title: str, content: str) -> str:  # store in notes dict\n    \"\"\"Create a new note with the given title and content.\"\"\"\n    notes[title] = content\n    return f\"Note '{title}' created.\"\n@mcp.tool()\ndef list_notes() -> str:\n    \"\"\"List all note titles.\"\"\"\n    if not notes:\n        return \"No notes yet.\"\n    return \"\\n\".join(f\"- {t}\" for t in notes.keys())",
+        "detail": "MCP.solutions.solution-03.server",
+        "documentation": {}
+    },
+    {
+        "label": "list_notes",
+        "kind": 2,
+        "importPath": "MCP.solutions.solution-03.server",
+        "description": "MCP.solutions.solution-03.server",
+        "peekOfCode": "def list_notes() -> str:\n    \"\"\"List all note titles.\"\"\"\n    if not notes:\n        return \"No notes yet.\"\n    return \"\\n\".join(f\"- {t}\" for t in notes.keys())\n@mcp.tool()\ndef get_note(title: str) -> str:\n    \"\"\"Get the content of a note by title.\"\"\"\n    if title not in notes:\n        return f\"Error: Note '{title}' not found.\"",
+        "detail": "MCP.solutions.solution-03.server",
+        "documentation": {}
+    },
+    {
+        "label": "get_note",
+        "kind": 2,
+        "importPath": "MCP.solutions.solution-03.server",
+        "description": "MCP.solutions.solution-03.server",
+        "peekOfCode": "def get_note(title: str) -> str:\n    \"\"\"Get the content of a note by title.\"\"\"\n    if title not in notes:\n        return f\"Error: Note '{title}' not found.\"\n    return notes[title]\n@mcp.tool()\ndef delete_note(title: str) -> str:\n    \"\"\"Delete a note by title.\"\"\"\n    if title not in notes:\n        return f\"Error: Note '{title}' not found.\"",
+        "detail": "MCP.solutions.solution-03.server",
+        "documentation": {}
+    },
+    {
+        "label": "delete_note",
+        "kind": 2,
+        "importPath": "MCP.solutions.solution-03.server",
+        "description": "MCP.solutions.solution-03.server",
+        "peekOfCode": "def delete_note(title: str) -> str:\n    \"\"\"Delete a note by title.\"\"\"\n    if title not in notes:\n        return f\"Error: Note '{title}' not found.\"\n    del notes[title]\n    return f\"Note '{title}' deleted.\"\nif __name__ == \"__main__\":\n    mcp.run()",
+        "detail": "MCP.solutions.solution-03.server",
+        "documentation": {}
+    },
+    {
+        "label": "mcp",
+        "kind": 5,
+        "importPath": "MCP.solutions.solution-03.server",
+        "description": "MCP.solutions.solution-03.server",
+        "peekOfCode": "mcp = FastMCP(\"Notes Server\")\nnotes: dict[str, str] = {}  # in-memory storage\n@mcp.tool()\ndef create_note(title: str, content: str) -> str:  # store in notes dict\n    \"\"\"Create a new note with the given title and content.\"\"\"\n    notes[title] = content\n    return f\"Note '{title}' created.\"\n@mcp.tool()\ndef list_notes() -> str:\n    \"\"\"List all note titles.\"\"\"",
+        "detail": "MCP.solutions.solution-03.server",
+        "documentation": {}
+    }
+]

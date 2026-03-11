@@ -25,6 +25,22 @@ Structured course content on the A2A protocol is in the [`docs/`](docs/) folder:
 
 ---
 
+## Get the Repository
+
+```bash
+git clone git@github.com:MSKazemi/ai-agent-systems-course.git
+cd ai-agent-systems-course/A2A
+```
+
+Or with HTTPS:
+
+```bash
+git clone https://github.com/MSKazemi/ai-agent-systems-course.git
+cd ai-agent-systems-course/A2A
+```
+
+---
+
 ## Quick Start
 
 ### 1. Install
