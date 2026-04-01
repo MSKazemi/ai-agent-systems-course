@@ -76,6 +76,15 @@ def get_llm_model() -> Any:
             )
         from google.adk.models.lite_llm import LiteLlm
         return LiteLlm(model=f"azure/{get_azure_deployment()}")
+        
+    if provider == "ollama":
+        from google.adk.models.lite_llm import LiteLlm
+        model = os.getenv("OLLAMA_MODEL", "qwen3.5:35b")
+        base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
+        return LiteLlm(
+            model=f"ollama_chat/{model}",
+            api_base=base_url,
+        )
 
     if provider == "gemini":
         return "gemini-2.0-flash"
