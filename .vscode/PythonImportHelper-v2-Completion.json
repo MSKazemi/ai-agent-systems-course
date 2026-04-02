@@ -56,6 +56,46 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "get_llm_model",
         "importPath": "llm_config",
         "description": "llm_config",
@@ -97,6 +137,38 @@
     },
     {
         "label": "is_azure_configured",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_openai_client",
         "importPath": "llm_config",
         "description": "llm_config",
         "isExtraImport": true,
@@ -234,15 +306,39 @@
         "documentation": {}
     },
     {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "pathlib",
         "documentation": {}
     },
     {
-        "label": "NamedTuple",
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -279,6 +375,47 @@
         "description": "google.adk.a2a.utils.agent_to_a2a",
         "isExtraImport": true,
         "detail": "google.adk.a2a.utils.agent_to_a2a",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "create_deep_agent",
+        "importPath": "deepagents",
+        "description": "deepagents",
+        "isExtraImport": true,
+        "detail": "deepagents",
+        "documentation": {}
+    },
+    {
+        "label": "create_deep_agent",
+        "importPath": "deepagents",
+        "description": "deepagents",
+        "isExtraImport": true,
+        "detail": "deepagents",
+        "documentation": {}
+    },
+    {
+        "label": "create_deep_agent",
+        "importPath": "deepagents",
+        "description": "deepagents",
+        "isExtraImport": true,
+        "detail": "deepagents",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
+        "isExtraImport": true,
+        "detail": "langchain_core.tools",
         "documentation": {}
     },
     {
@@ -392,24 +529,6 @@
         "description": "server",
         "isExtraImport": true,
         "detail": "server",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
         "documentation": {}
     },
     {
@@ -588,7 +707,7 @@
         "kind": 2,
         "importPath": "A2A.remote_prime_agent",
         "description": "A2A.remote_prime_agent",
-        "peekOfCode": "def check_prime(nums: list[int]) -> dict[int, bool]:\n    \"\"\"\n    Check which numbers in the list are prime.\n    This function becomes an ADK tool automatically. The LLM sees its\n    signature and docstring, and can call it when the user asks about primes.\n    Algorithm: for each n, test divisibility by integers from 2 to sqrt(n).\n    Numbers < 2 are not prime.\n    Args:\n        nums: List of integers to check for primality.\n    Returns:",
+        "peekOfCode": "def check_prime(nums: list[int]) -> dict[str, bool]:\n    \"\"\"\n    Check which numbers in the list are prime.\n    This function becomes an ADK tool automatically. The LLM sees its\n    signature and docstring, and can call it when the user asks about primes.\n    Algorithm: for each n, test divisibility by integers from 2 to sqrt(n).\n    Numbers < 2 are not prime.\n    Args:\n        nums: List of integers to check for primality.\n    Returns:",
         "detail": "A2A.remote_prime_agent",
         "documentation": {}
     },
@@ -620,6 +739,60 @@
         "documentation": {}
     },
     {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DeepAgent.examples.01-hello-agent.agent",
+        "description": "DeepAgent.examples.01-hello-agent.agent",
+        "peekOfCode": "def main():\n    # Step 1: Load the LLM (configured via .env)\n    llm = get_llm_model()\n    # Step 2: Create the agent\n    #   - model: the LLM to use\n    #   - tools: [] means use only the built-in tools (write_todos, read_file, etc.)\n    #   - system_prompt: optional; customizes the agent's persona\n    agent = create_deep_agent(\n        model=llm,\n        system_prompt=\"You are a helpful assistant. Keep your answers concise.\",",
+        "detail": "DeepAgent.examples.01-hello-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "get_city_population",
+        "kind": 2,
+        "importPath": "DeepAgent.examples.02-custom-tools.agent",
+        "description": "DeepAgent.examples.02-custom-tools.agent",
+        "peekOfCode": "def get_city_population(city: str) -> str:\n    \"\"\"\n    Return the approximate population of a city.\n    Use this when the user asks about population figures.\n    \"\"\"\n    # Hardcoded for demo purposes.\n    populations = {\n        \"tokyo\": \"13.96 million\",\n        \"new york\": \"8.34 million\",\n        \"london\": \"8.98 million\",",
+        "detail": "DeepAgent.examples.02-custom-tools.agent",
+        "documentation": {}
+    },
+    {
+        "label": "celsius_to_fahrenheit",
+        "kind": 2,
+        "importPath": "DeepAgent.examples.02-custom-tools.agent",
+        "description": "DeepAgent.examples.02-custom-tools.agent",
+        "peekOfCode": "def celsius_to_fahrenheit(celsius: float) -> str:\n    \"\"\"\n    Convert a temperature from Celsius to Fahrenheit.\n    Use this when the user asks to convert temperature.\n    \"\"\"\n    fahrenheit = (celsius * 9 / 5) + 32\n    return f\"{celsius}°C = {fahrenheit:.1f}°F\"\ndef main():\n    llm = get_llm_model()\n    # Register custom tools alongside the built-in ones",
+        "detail": "DeepAgent.examples.02-custom-tools.agent",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DeepAgent.examples.02-custom-tools.agent",
+        "description": "DeepAgent.examples.02-custom-tools.agent",
+        "peekOfCode": "def main():\n    llm = get_llm_model()\n    # Register custom tools alongside the built-in ones\n    agent = create_deep_agent(\n        model=llm,\n        tools=[get_city_population, celsius_to_fahrenheit],\n        system_prompt=(\n            \"You are a helpful assistant with access to city population data \"\n            \"and temperature conversion tools. Use them when relevant.\"\n        ),",
+        "detail": "DeepAgent.examples.02-custom-tools.agent",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "DeepAgent.examples.03-subagents.agent",
+        "description": "DeepAgent.examples.03-subagents.agent",
+        "peekOfCode": "def main():\n    llm = get_llm_model()\n    # The orchestrator has no custom tools.\n    # It uses the built-in `task` tool to delegate to subagents.\n    agent = create_deep_agent(\n        model=llm,\n        system_prompt=(\n            \"You are an orchestrator agent. When given a multi-part task, \"\n            \"break it into subtasks and use the `task` tool to delegate each \"\n            \"subtask to a specialized subagent. Combine their results at the end.\"",
+        "detail": "DeepAgent.examples.03-subagents.agent",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "kind": 2,
+        "importPath": "DeepAgent.llm_config",
+        "description": "DeepAgent.llm_config",
+        "peekOfCode": "def get_llm_model():\n    \"\"\"Return a LangChain chat model based on LLM_PROVIDER env var.\"\"\"\n    provider = os.getenv(\"LLM_PROVIDER\", \"openai\").lower()\n    if provider == \"openai\":\n        from langchain_openai import ChatOpenAI\n        return ChatOpenAI(model=\"gpt-4o\", temperature=0)\n    elif provider == \"azure\":\n        from langchain_openai import AzureChatOpenAI\n        return AzureChatOpenAI(\n            azure_deployment=os.environ[\"AZURE_OPENAI_DEPLOYMENT\"],",
+        "detail": "DeepAgent.llm_config",
+        "documentation": {}
+    },
+    {
         "label": "client",
         "kind": 5,
         "importPath": "MCP.examples.01-calculator.client",
@@ -629,20 +802,20 @@
         "documentation": {}
     },
     {
-        "label": "ToolCall",
-        "kind": 6,
+        "label": "mcp_tools_to_openai",
+        "kind": 2,
         "importPath": "MCP.examples.01-calculator.demo",
         "description": "MCP.examples.01-calculator.demo",
-        "peekOfCode": "class ToolCall(NamedTuple):\n    tool: str\n    arguments: dict\ndef fake_llm(user_input: str) -> ToolCall | None:\n    \"\"\"Parse user input → tool call. e.g. 'add 4 and 5' → add(4, 5).\"\"\"\n    inp = user_input.strip().lower()\n    if m := re.search(r\"add\\s+(\\d+)\\s+(?:and\\s+)?(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})\n    if m := re.search(r\"(\\d+)\\s*\\+\\s*(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})",
+        "peekOfCode": "def mcp_tools_to_openai(tools: list) -> list:\n    \"\"\"Convert MCP tool list → OpenAI tool-calling format.\"\"\"\n    return [\n        {\n            \"type\": \"function\",\n            \"function\": {\n                \"name\": t.name,\n                \"description\": t.description or \"\",\n                \"parameters\": t.inputSchema or {\"type\": \"object\", \"properties\": {}},\n            },",
         "detail": "MCP.examples.01-calculator.demo",
         "documentation": {}
     },
     {
-        "label": "fake_llm",
+        "label": "llm_pick_tool",
         "kind": 2,
         "importPath": "MCP.examples.01-calculator.demo",
         "description": "MCP.examples.01-calculator.demo",
-        "peekOfCode": "def fake_llm(user_input: str) -> ToolCall | None:\n    \"\"\"Parse user input → tool call. e.g. 'add 4 and 5' → add(4, 5).\"\"\"\n    inp = user_input.strip().lower()\n    if m := re.search(r\"add\\s+(\\d+)\\s+(?:and\\s+)?(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})\n    if m := re.search(r\"(\\d+)\\s*\\+\\s*(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})\n    if m := re.search(r\"subtract\\s+(\\d+)\\s+(\\d+)\", inp):\n        return ToolCall(\"subtract\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})\n    if m := re.search(r\"(\\d+)\\s+minus\\s+(\\d+)\", inp):",
+        "peekOfCode": "def llm_pick_tool(user_input: str, openai_tools: list):\n    \"\"\"Send user message + available tools to the LLM; return (tool_name, args) or (None, None).\"\"\"\n    response = llm_client.chat.completions.create(\n        model=llm_model,\n        messages=[{\"role\": \"user\", \"content\": user_input}],\n        tools=openai_tools,\n        tool_choice=\"auto\",\n    )\n    msg = response.choices[0].message\n    if msg.tool_calls:",
         "detail": "MCP.examples.01-calculator.demo",
         "documentation": {}
     },
@@ -651,16 +824,7 @@
         "kind": 2,
         "importPath": "MCP.examples.01-calculator.demo",
         "description": "MCP.examples.01-calculator.demo",
-        "peekOfCode": "def main():\n    print(\"Full MCP demo (Fake LLM + FastMCP Client + Server)\")\n    print(\"Try: 'add 4 and 5'  |  'subtract 10 3'  |  'quit'\")\n    print(\"-\" * 50)\n    while True:\n        try:\n            user_input = input(\"\\nYou: \").strip()\n        except (EOFError, KeyboardInterrupt):\n            print(\"\\nBye!\")\n            break",
-        "detail": "MCP.examples.01-calculator.demo",
-        "documentation": {}
-    },
-    {
-        "label": "client",
-        "kind": 5,
-        "importPath": "MCP.examples.01-calculator.demo",
-        "description": "MCP.examples.01-calculator.demo",
-        "peekOfCode": "client = Client(mcp)\n# NamedTuple: a simple way to group tool name and arguments together\nclass ToolCall(NamedTuple):\n    tool: str\n    arguments: dict\ndef fake_llm(user_input: str) -> ToolCall | None:\n    \"\"\"Parse user input → tool call. e.g. 'add 4 and 5' → add(4, 5).\"\"\"\n    inp = user_input.strip().lower()\n    if m := re.search(r\"add\\s+(\\d+)\\s+(?:and\\s+)?(\\d+)\", inp):\n        return ToolCall(\"add\", {\"a\": int(m.group(1)), \"b\": int(m.group(2))})",
+        "peekOfCode": "def main():\n    print(\"Full MCP demo (Real LLM + FastMCP Client + Server)\")\n    print(f\"Provider: {llm_model}\")\n    print(\"Try: 'add 4 and 5'  |  'what is 10 minus 3?'  |  'quit'\")\n    print(\"-\" * 50)\n    tools = asyncio.run(_list_tools())\n    openai_tools = mcp_tools_to_openai(tools)\n    while True:\n        try:\n            user_input = input(\"\\nYou: \").strip()",
         "detail": "MCP.examples.01-calculator.demo",
         "documentation": {}
     },
@@ -941,6 +1105,15 @@
         "description": "MCP.solutions.solution-03.server",
         "peekOfCode": "mcp = FastMCP(\"Notes Server\")\nnotes: dict[str, str] = {}  # in-memory storage\n@mcp.tool()\ndef create_note(title: str, content: str) -> str:  # store in notes dict\n    \"\"\"Create a new note with the given title and content.\"\"\"\n    notes[title] = content\n    return f\"Note '{title}' created.\"\n@mcp.tool()\ndef list_notes() -> str:\n    \"\"\"List all note titles.\"\"\"",
         "detail": "MCP.solutions.solution-03.server",
+        "documentation": {}
+    },
+    {
+        "label": "get_openai_client",
+        "kind": 2,
+        "importPath": "MCP.llm_config",
+        "description": "MCP.llm_config",
+        "peekOfCode": "def get_openai_client():\n    \"\"\"\n    Return (client, model_name) for the configured LLM provider.\n    All three providers expose an OpenAI-compatible REST API, so we use the\n    openai Python package for all of them — only the base_url and api_key differ.\n    Returns:\n        Tuple of (openai.OpenAI client, model name string)\n    \"\"\"\n    from openai import OpenAI\n    provider = (os.getenv(\"LLM_PROVIDER\") or \"ollama\").lower().strip()",
+        "detail": "MCP.llm_config",
         "documentation": {}
     }
 ]

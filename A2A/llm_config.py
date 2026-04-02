@@ -84,6 +84,7 @@ def get_llm_model() -> Any:
         return LiteLlm(
             model=f"ollama_chat/{model}",
             api_base=base_url,
+            stream=False,
         )
 
     if provider == "gemini":

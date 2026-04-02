@@ -53,7 +53,7 @@ def check_prime(nums: list[int]) -> dict[str, bool]:
             result[str(n)] = all(n % i != 0 for i in range(2, int(n**0.5) + 1))
     return result
 
-
+# MCP ==>
 root_agent = Agent(
     name="prime_agent",
     model=get_llm_model(),

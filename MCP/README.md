@@ -22,8 +22,8 @@ A self-paced, beginner-to-intermediate course for building MCP servers with **Fa
 
 ```bash
 # Clone the repo
-git clone https://github.com/MSKazemi/MCP-LBDA.git
-cd MCP-LBDA
+git clone https://github.com/MSKazemi/ai-agent-systems-course.git
+cd ai-agent-systems-course/MCP
 
 # Create and activate virtual environment
 python3 -m venv .venv       # Linux/macOS (or: python -m venv .venv)
@@ -71,7 +71,7 @@ Try: `add 4 and 5` | `subtract 10 3` | `quit`
 All docs include simple explanations. Code examples have inline comments.
 
 | Doc | Topic |
-|-----|-------|
+| --- | ----- |
 | [01 – Introduction](docs/01-introduction.md) | What problem MCP solves, tool calling, real-world use cases |
 | [02 – Core Concepts](docs/02-core-concepts.md) | Tools, resources, prompts; architecture diagram |
 | [03 – Architecture](docs/03-architecture.md) | Request lifecycle, how pieces fit together |
@@ -90,7 +90,7 @@ Read the docs first to build context, then do hands-on work.
 ### Phase 1 – Read the docs
 
 | # | Doc | Topic |
-|---|-----|-------|
+| - | --- | ----- |
 | 1 | [01-introduction](docs/01-introduction.md) | What problem does MCP solve? |
 | 2 | [02-core-concepts](docs/02-core-concepts.md) | Tools, resources, prompts |
 | 3 | [03-architecture](docs/03-architecture.md) | Request flow, transport |
@@ -100,7 +100,7 @@ Read the docs first to build context, then do hands-on work.
 ### Phase 2 – Hands-on
 
 | # | Step | What to do |
-|---|------|------------|
+| - | ---- | ---------- |
 | 6 | **Run** | [examples/01-calculator](examples/01-calculator) – Server + client |
 | 7 | **Demo** | [examples/01-calculator/demo.py](examples/01-calculator/demo.py) – Full loop (fake LLM) |
 | 8 | **Run** | [examples/02-calculator-advanced](examples/02-calculator-advanced) – STDIO, resources, prompts |
@@ -114,7 +114,7 @@ Read the docs first to build context, then do hands-on work.
 ## 🛠 Examples
 
 | Example | What it shows |
-|---------|---------------|
+| ------- | ------------- |
 | [01-calculator](examples/01-calculator) | Minimal: in-memory server, 2 tools, demo loop |
 | [02-calculator-advanced](examples/02-calculator-advanced) | STDIO transport, resource, prompt, instructions |
 | [03-file-reader](examples/03-file-reader) | File I/O – `read_file` tool |
@@ -127,7 +127,7 @@ Each has a `README.md`, `server.py`, and `client.py`. Code includes inline comme
 ## ✏️ Exercises
 
 | Exercise | Goal |
-|----------|------|
+| -------- | ---- |
 | [01 – Build a Tool](exercises/exercise-01-build-tool.md) | Add `multiply`; explore type validation |
 | [02 – Add a Resource](exercises/exercise-02-add-resource.md) | Expose read-only data at a URI |
 | [03 – Multi-Tool Server](exercises/exercise-03-multi-tool.md) | Notes server: create, list, get, delete |
@@ -138,8 +138,8 @@ Solutions: [solutions/solution-01](solutions/solution-01), [solution-02](solutio
 
 ## 📁 Repository Structure
 
-```
-MCP-LBDA/
+```text
+MCP/
 ├── docs/                      ← Teaching docs
 │   ├── 01-introduction.md
 │   ├── 02-core-concepts.md
