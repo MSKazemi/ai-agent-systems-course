@@ -60,14 +60,16 @@ cp .env.example .env
 
 ### LLM
 
-The course uses **Ollama running on the lab server** — you connect to it via SSH tunnel. You do **not** need to install Ollama or download any model on your own machine.
+The course uses **Ollama running on the lab server** — you connect to it via SSH tunnel. You do **not** need to install Ollama or download any model on your own machine. The default configuration works for all modules.
+
+The table below lists alternative providers if you prefer to use your own credentials. **These are all optional** — the lab Ollama setup is sufficient to complete every module.
 
 | Provider | `LLM_PROVIDER` | Requires |
 |----------|---------------|---------|
-| Lab Ollama (default) | `ollama` | SSH tunnel open (see Step 4 above) |
-| Azure OpenAI | `azure` | `AZURE_OPENAI_*` vars in `.env` |
-| Google Gemini | `gemini` | `GOOGLE_API_KEY` in `.env` |
-| OpenAI | `openai` | `OPENAI_API_KEY` in `.env` (DeepAgent only) |
+| Lab Ollama **(default)** | `ollama` | SSH tunnel open (see Step 4 above) |
+| Azure OpenAI *(optional)* | `azure` | `AZURE_OPENAI_*` vars in `.env` |
+| Google Gemini *(optional)* | `gemini` | `GOOGLE_API_KEY` in `.env` |
+| OpenAI *(optional)* | `openai` | `OPENAI_API_KEY` in `.env` |
 
 ---
 
