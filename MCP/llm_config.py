@@ -2,22 +2,24 @@
 LLM Configuration for MCP demos — OpenAI-compatible client.
 
 Supports Ollama (local), Azure OpenAI, and Gemini via OpenAI-compatible API.
-Mirror of A2A/llm_config.py but returns an openai client instead of an ADK model,
-since MCP demos don't use Google ADK.
+Reads .env from the current directory or any parent (finds root .env automatically).
 
-ENV VARS:
-    LLM_PROVIDER                    : "ollama" | "azure" | "gemini" (default: ollama)
-    OLLAMA_MODEL                    : model name (default: qwen3.5:35b)
-    OLLAMA_BASE_URL                 : Ollama endpoint (default: http://localhost:11434)
-    AZURE_OPENAI_API_KEY            : Azure API key
-    AZURE_OPENAI_ENDPOINT           : Azure endpoint URL
-    AZURE_OPENAI_API_VERSION        : Azure API version (default: 2024-02-01)
-    AZURE_PRIMARY_LLM_DEPLOYMENT_NAME : Azure deployment name (default: gpt-4o)
-    GOOGLE_API_KEY                  : Gemini API key
-    GEMINI_MODEL                    : Gemini model (default: gemini-2.0-flash)
+ENV VARS (set in root .env or MCP/.env):
+    LLM_PROVIDER                : "ollama" | "azure" | "gemini" (default: ollama)
+    OLLAMA_MODEL                : model name (default: qwen3.5:35b)
+    OLLAMA_BASE_URL             : Ollama endpoint (default: http://localhost:11434)
+    AZURE_OPENAI_API_KEY        : Azure API key
+    AZURE_OPENAI_ENDPOINT       : Azure endpoint URL
+    AZURE_OPENAI_API_VERSION    : Azure API version (default: 2024-02-01)
+    AZURE_OPENAI_DEPLOYMENT     : Azure deployment name (default: gpt-4o)
+    GOOGLE_API_KEY              : Gemini API key
+    GEMINI_MODEL                : Gemini model (default: gemini-2.0-flash)
 """
 
 import os
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())
 
 
 def get_openai_client():
@@ -41,7 +43,7 @@ def get_openai_client():
             azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT", "").rstrip("/"),
             api_version=os.getenv("AZURE_OPENAI_API_VERSION", "2024-02-01"),
         )
-        model = os.getenv("AZURE_PRIMARY_LLM_DEPLOYMENT_NAME", "gpt-4o")
+        model = os.getenv("AZURE_OPENAI_DEPLOYMENT") or os.getenv("AZURE_PRIMARY_LLM_DEPLOYMENT_NAME", "gpt-4o")
         return client, model
 
     if provider == "gemini":

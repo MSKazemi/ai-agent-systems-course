@@ -1,13 +1,20 @@
 """
-LLM provider selection for DeepAgent examples.
+Shared LLM configuration — repo root.
 
-Set LLM_PROVIDER in your .env file (or root .env):
-  LLM_PROVIDER=ollama   → local Ollama, no API key needed (default)
-  LLM_PROVIDER=azure    → requires AZURE_OPENAI_* vars
-  LLM_PROVIDER=gemini   → requires GOOGLE_API_KEY
-  LLM_PROVIDER=openai   → requires OPENAI_API_KEY
+Used by LangGraph examples (and any other module that needs a LangChain model).
+DeepAgent, MCP, and A2A each have their own llm_config.py that mirrors this
+interface for their specific LLM abstraction.
 
-Returns a LangChain chat model compatible with DeepAgent's create_deep_agent().
+ENV VARS (set in root .env):
+    LLM_PROVIDER        : ollama | azure | gemini | openai  (default: ollama)
+    OLLAMA_MODEL        : model name          (default: qwen3.5:35b)
+    OLLAMA_BASE_URL     : Ollama endpoint     (default: http://localhost:11434)
+    AZURE_OPENAI_API_KEY
+    AZURE_OPENAI_ENDPOINT
+    AZURE_OPENAI_DEPLOYMENT                  (default: gpt-4o)
+    AZURE_OPENAI_API_VERSION                 (default: 2024-02-01)
+    GOOGLE_API_KEY
+    OPENAI_API_KEY
 """
 
 import os
@@ -16,8 +23,8 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 
-def get_llm_model():
-    """Return a LangChain chat model based on LLM_PROVIDER env var."""
+def get_langchain_model():
+    """Return a LangChain ChatModel for the configured provider."""
     provider = os.getenv("LLM_PROVIDER", "ollama").lower().strip()
 
     if provider == "ollama":
@@ -27,7 +34,7 @@ def get_llm_model():
             base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
         )
 
-    elif provider == "azure":
+    if provider == "azure":
         from langchain_openai import AzureChatOpenAI
         return AzureChatOpenAI(
             azure_deployment=os.environ["AZURE_OPENAI_DEPLOYMENT"],
@@ -37,7 +44,7 @@ def get_llm_model():
             temperature=0,
         )
 
-    elif provider == "gemini":
+    if provider == "gemini":
         from langchain_google_genai import ChatGoogleGenerativeAI
         return ChatGoogleGenerativeAI(
             model="gemini-2.0-flash",
@@ -45,12 +52,15 @@ def get_llm_model():
             temperature=0,
         )
 
-    elif provider == "openai":
+    if provider == "openai":
         from langchain_openai import ChatOpenAI
         return ChatOpenAI(model="gpt-4o", temperature=0)
 
-    else:
-        raise ValueError(
-            f"Unknown LLM_PROVIDER='{provider}'. "
-            "Choose: ollama, azure, gemini, openai"
-        )
+    raise ValueError(
+        f"Unknown LLM_PROVIDER='{provider}'. "
+        "Choose: ollama, azure, gemini, openai"
+    )
+
+
+# Alias used by DeepAgent-style imports
+get_llm_model = get_langchain_model

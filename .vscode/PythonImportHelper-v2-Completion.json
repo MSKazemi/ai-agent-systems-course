@@ -40,7 +40,7 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
+        "label": "find_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
         "isExtraImport": true,
@@ -89,6 +89,94 @@
     },
     {
         "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
         "isExtraImport": true,
@@ -161,6 +249,22 @@
     },
     {
         "label": "get_llm_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_langchain_model",
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "isExtraImport": true,
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_langchain_model",
         "importPath": "llm_config",
         "description": "llm_config",
         "isExtraImport": true,
@@ -338,7 +442,31 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -416,6 +544,86 @@
         "description": "langchain_core.tools",
         "isExtraImport": true,
         "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
+        "isExtraImport": true,
+        "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
+        "isExtraImport": true,
+        "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ToolMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "add_messages",
+        "importPath": "langgraph.graph.message",
+        "description": "langgraph.graph.message",
+        "isExtraImport": true,
+        "detail": "langgraph.graph.message",
+        "documentation": {}
+    },
+    {
+        "label": "ToolNode",
+        "importPath": "langgraph.prebuilt",
+        "description": "langgraph.prebuilt",
+        "isExtraImport": true,
+        "detail": "langgraph.prebuilt",
         "documentation": {}
     },
     {
@@ -635,7 +843,7 @@
         "kind": 2,
         "importPath": "A2A.llm_config",
         "description": "A2A.llm_config",
-        "peekOfCode": "def get_llm_model() -> Any:\n    \"\"\"\n    Return the LLM model object/string for ADK Agent.\n    Selection logic:\n        - LLM_PROVIDER=azure   → Azure OpenAI via LiteLLM (requires Azure env vars)\n        - LLM_PROVIDER=gemini  → \"gemini-2.0-flash\" (requires GOOGLE_API_KEY)\n        - Unset                → Azure if configured, else Gemini\n    Returns:\n        Either LiteLlm(model=\"azure/gpt-4o\") or \"gemini-2.0-flash\"\n    \"\"\"",
+        "peekOfCode": "def get_llm_model() -> Any:\n    \"\"\"\n    Return the LLM model object/string for ADK Agent.\n    Selection logic:\n        - LLM_PROVIDER=ollama  → local Ollama via LiteLLM (default, no key needed)\n        - LLM_PROVIDER=azure   → Azure OpenAI via LiteLLM (requires Azure env vars)\n        - LLM_PROVIDER=gemini  → \"gemini-2.0-flash\" (requires GOOGLE_API_KEY)\n        - Unset                → defaults to ollama\n    Returns:\n        LiteLlm instance or \"gemini-2.0-flash\" string",
         "detail": "A2A.llm_config",
         "documentation": {}
     },
@@ -788,8 +996,170 @@
         "kind": 2,
         "importPath": "DeepAgent.llm_config",
         "description": "DeepAgent.llm_config",
-        "peekOfCode": "def get_llm_model():\n    \"\"\"Return a LangChain chat model based on LLM_PROVIDER env var.\"\"\"\n    provider = os.getenv(\"LLM_PROVIDER\", \"openai\").lower()\n    if provider == \"openai\":\n        from langchain_openai import ChatOpenAI\n        return ChatOpenAI(model=\"gpt-4o\", temperature=0)\n    elif provider == \"azure\":\n        from langchain_openai import AzureChatOpenAI\n        return AzureChatOpenAI(\n            azure_deployment=os.environ[\"AZURE_OPENAI_DEPLOYMENT\"],",
+        "peekOfCode": "def get_llm_model():\n    \"\"\"Return a LangChain chat model based on LLM_PROVIDER env var.\"\"\"\n    provider = os.getenv(\"LLM_PROVIDER\", \"ollama\").lower().strip()\n    if provider == \"ollama\":\n        from langchain_ollama import ChatOllama\n        return ChatOllama(\n            model=os.getenv(\"OLLAMA_MODEL\", \"qwen3.5:35b\"),\n            base_url=os.getenv(\"OLLAMA_BASE_URL\", \"http://localhost:11434\"),\n        )\n    elif provider == \"azure\":",
         "detail": "DeepAgent.llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "LangGraph.examples.01-chain-and-tools.example",
+        "description": "LangGraph.examples.01-chain-and-tools.example",
+        "peekOfCode": "def multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two integers and return the result.\"\"\"\n    return a * b\n@tool\ndef add(a: int, b: int) -> int:\n    \"\"\"Add two integers and return the result.\"\"\"\n    return a + b\ntools = [multiply, add]\ntool_map = {t.name: t for t in tools}\n# ── Step 2: Bind tools to the model ─────────────────────────",
+        "detail": "LangGraph.examples.01-chain-and-tools.example",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "LangGraph.examples.01-chain-and-tools.example",
+        "description": "LangGraph.examples.01-chain-and-tools.example",
+        "peekOfCode": "def add(a: int, b: int) -> int:\n    \"\"\"Add two integers and return the result.\"\"\"\n    return a + b\ntools = [multiply, add]\ntool_map = {t.name: t for t in tools}\n# ── Step 2: Bind tools to the model ─────────────────────────\nmodel = get_langchain_model()\nmodel_with_tools = model.bind_tools(tools)\n# ── Step 3: Invoke ───────────────────────────────────────────\ndef run(question: str):",
+        "detail": "LangGraph.examples.01-chain-and-tools.example",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "LangGraph.examples.01-chain-and-tools.example",
+        "description": "LangGraph.examples.01-chain-and-tools.example",
+        "peekOfCode": "def run(question: str):\n    print(f\"Question: {question}\")\n    print(\"-\" * 50)\n    messages = [HumanMessage(content=question)]\n    # First call — model may respond with tool calls\n    response = model_with_tools.invoke(messages)\n    messages.append(response)\n    # If the model called a tool, execute it and feed back the result\n    if response.tool_calls:\n        for tc in response.tool_calls:",
+        "detail": "LangGraph.examples.01-chain-and-tools.example",
+        "documentation": {}
+    },
+    {
+        "label": "tools",
+        "kind": 5,
+        "importPath": "LangGraph.examples.01-chain-and-tools.example",
+        "description": "LangGraph.examples.01-chain-and-tools.example",
+        "peekOfCode": "tools = [multiply, add]\ntool_map = {t.name: t for t in tools}\n# ── Step 2: Bind tools to the model ─────────────────────────\nmodel = get_langchain_model()\nmodel_with_tools = model.bind_tools(tools)\n# ── Step 3: Invoke ───────────────────────────────────────────\ndef run(question: str):\n    print(f\"Question: {question}\")\n    print(\"-\" * 50)\n    messages = [HumanMessage(content=question)]",
+        "detail": "LangGraph.examples.01-chain-and-tools.example",
+        "documentation": {}
+    },
+    {
+        "label": "tool_map",
+        "kind": 5,
+        "importPath": "LangGraph.examples.01-chain-and-tools.example",
+        "description": "LangGraph.examples.01-chain-and-tools.example",
+        "peekOfCode": "tool_map = {t.name: t for t in tools}\n# ── Step 2: Bind tools to the model ─────────────────────────\nmodel = get_langchain_model()\nmodel_with_tools = model.bind_tools(tools)\n# ── Step 3: Invoke ───────────────────────────────────────────\ndef run(question: str):\n    print(f\"Question: {question}\")\n    print(\"-\" * 50)\n    messages = [HumanMessage(content=question)]\n    # First call — model may respond with tool calls",
+        "detail": "LangGraph.examples.01-chain-and-tools.example",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "LangGraph.examples.01-chain-and-tools.example",
+        "description": "LangGraph.examples.01-chain-and-tools.example",
+        "peekOfCode": "model = get_langchain_model()\nmodel_with_tools = model.bind_tools(tools)\n# ── Step 3: Invoke ───────────────────────────────────────────\ndef run(question: str):\n    print(f\"Question: {question}\")\n    print(\"-\" * 50)\n    messages = [HumanMessage(content=question)]\n    # First call — model may respond with tool calls\n    response = model_with_tools.invoke(messages)\n    messages.append(response)",
+        "detail": "LangGraph.examples.01-chain-and-tools.example",
+        "documentation": {}
+    },
+    {
+        "label": "model_with_tools",
+        "kind": 5,
+        "importPath": "LangGraph.examples.01-chain-and-tools.example",
+        "description": "LangGraph.examples.01-chain-and-tools.example",
+        "peekOfCode": "model_with_tools = model.bind_tools(tools)\n# ── Step 3: Invoke ───────────────────────────────────────────\ndef run(question: str):\n    print(f\"Question: {question}\")\n    print(\"-\" * 50)\n    messages = [HumanMessage(content=question)]\n    # First call — model may respond with tool calls\n    response = model_with_tools.invoke(messages)\n    messages.append(response)\n    # If the model called a tool, execute it and feed back the result",
+        "detail": "LangGraph.examples.01-chain-and-tools.example",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "kind": 6,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "class AgentState(TypedDict):\n    messages: Annotated[list, add_messages]\n# ── Nodes ─────────────────────────────────────────────────────\nmodel = get_langchain_model()\nmodel_with_tools = model.bind_tools(tools)\ndef call_model(state: AgentState):\n    \"\"\"Ask the LLM what to do next.\"\"\"\n    response = model_with_tools.invoke(state[\"messages\"])\n    return {\"messages\": [response]}\n# ── Graph ─────────────────────────────────────────────────────",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "def multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two integers.\"\"\"\n    return a * b\n@tool\ndef add(a: int, b: int) -> int:\n    \"\"\"Add two integers.\"\"\"\n    return a + b\ntools = [multiply, add]\n# ── State ─────────────────────────────────────────────────────\nclass AgentState(TypedDict):",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "def add(a: int, b: int) -> int:\n    \"\"\"Add two integers.\"\"\"\n    return a + b\ntools = [multiply, add]\n# ── State ─────────────────────────────────────────────────────\nclass AgentState(TypedDict):\n    messages: Annotated[list, add_messages]\n# ── Nodes ─────────────────────────────────────────────────────\nmodel = get_langchain_model()\nmodel_with_tools = model.bind_tools(tools)",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "call_model",
+        "kind": 2,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "def call_model(state: AgentState):\n    \"\"\"Ask the LLM what to do next.\"\"\"\n    response = model_with_tools.invoke(state[\"messages\"])\n    return {\"messages\": [response]}\n# ── Graph ─────────────────────────────────────────────────────\ndef should_continue(state: AgentState):\n    \"\"\"Route: if the last message has tool calls, run them; else we're done.\"\"\"\n    last = state[\"messages\"][-1]\n    if last.tool_calls:\n        return \"tools\"",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "should_continue",
+        "kind": 2,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "def should_continue(state: AgentState):\n    \"\"\"Route: if the last message has tool calls, run them; else we're done.\"\"\"\n    last = state[\"messages\"][-1]\n    if last.tool_calls:\n        return \"tools\"\n    return END\nbuilder = StateGraph(AgentState)\nbuilder.add_node(\"agent\", call_model)\nbuilder.add_node(\"tools\", ToolNode(tools))\nbuilder.set_entry_point(\"agent\")",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "def run(question: str):\n    print(f\"Question: {question}\")\n    print(\"-\" * 50)\n    result = graph.invoke({\n        \"messages\": [HumanMessage(content=question)]\n    })\n    # Walk through the message history to show what happened\n    for msg in result[\"messages\"]:\n        role = type(msg).__name__\n        if hasattr(msg, \"tool_calls\") and msg.tool_calls:",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "tools",
+        "kind": 5,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "tools = [multiply, add]\n# ── State ─────────────────────────────────────────────────────\nclass AgentState(TypedDict):\n    messages: Annotated[list, add_messages]\n# ── Nodes ─────────────────────────────────────────────────────\nmodel = get_langchain_model()\nmodel_with_tools = model.bind_tools(tools)\ndef call_model(state: AgentState):\n    \"\"\"Ask the LLM what to do next.\"\"\"\n    response = model_with_tools.invoke(state[\"messages\"])",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "model = get_langchain_model()\nmodel_with_tools = model.bind_tools(tools)\ndef call_model(state: AgentState):\n    \"\"\"Ask the LLM what to do next.\"\"\"\n    response = model_with_tools.invoke(state[\"messages\"])\n    return {\"messages\": [response]}\n# ── Graph ─────────────────────────────────────────────────────\ndef should_continue(state: AgentState):\n    \"\"\"Route: if the last message has tool calls, run them; else we're done.\"\"\"\n    last = state[\"messages\"][-1]",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "model_with_tools",
+        "kind": 5,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "model_with_tools = model.bind_tools(tools)\ndef call_model(state: AgentState):\n    \"\"\"Ask the LLM what to do next.\"\"\"\n    response = model_with_tools.invoke(state[\"messages\"])\n    return {\"messages\": [response]}\n# ── Graph ─────────────────────────────────────────────────────\ndef should_continue(state: AgentState):\n    \"\"\"Route: if the last message has tool calls, run them; else we're done.\"\"\"\n    last = state[\"messages\"][-1]\n    if last.tool_calls:",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "kind": 5,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "builder = StateGraph(AgentState)\nbuilder.add_node(\"agent\", call_model)\nbuilder.add_node(\"tools\", ToolNode(tools))\nbuilder.set_entry_point(\"agent\")\nbuilder.add_conditional_edges(\"agent\", should_continue)\nbuilder.add_edge(\"tools\", \"agent\")   # after tools, always back to agent\ngraph = builder.compile()\n# ── Run ───────────────────────────────────────────────────────\ndef run(question: str):\n    print(f\"Question: {question}\")",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 5,
+        "importPath": "LangGraph.examples.02-langgraph-agent.agent",
+        "description": "LangGraph.examples.02-langgraph-agent.agent",
+        "peekOfCode": "graph = builder.compile()\n# ── Run ───────────────────────────────────────────────────────\ndef run(question: str):\n    print(f\"Question: {question}\")\n    print(\"-\" * 50)\n    result = graph.invoke({\n        \"messages\": [HumanMessage(content=question)]\n    })\n    # Walk through the message history to show what happened\n    for msg in result[\"messages\"]:",
+        "detail": "LangGraph.examples.02-langgraph-agent.agent",
         "documentation": {}
     },
     {
@@ -1114,6 +1484,24 @@
         "description": "MCP.llm_config",
         "peekOfCode": "def get_openai_client():\n    \"\"\"\n    Return (client, model_name) for the configured LLM provider.\n    All three providers expose an OpenAI-compatible REST API, so we use the\n    openai Python package for all of them — only the base_url and api_key differ.\n    Returns:\n        Tuple of (openai.OpenAI client, model name string)\n    \"\"\"\n    from openai import OpenAI\n    provider = (os.getenv(\"LLM_PROVIDER\") or \"ollama\").lower().strip()",
         "detail": "MCP.llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_langchain_model",
+        "kind": 2,
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "peekOfCode": "def get_langchain_model():\n    \"\"\"Return a LangChain ChatModel for the configured provider.\"\"\"\n    provider = os.getenv(\"LLM_PROVIDER\", \"ollama\").lower().strip()\n    if provider == \"ollama\":\n        from langchain_ollama import ChatOllama\n        return ChatOllama(\n            model=os.getenv(\"OLLAMA_MODEL\", \"qwen3.5:35b\"),\n            base_url=os.getenv(\"OLLAMA_BASE_URL\", \"http://localhost:11434\"),\n        )\n    if provider == \"azure\":",
+        "detail": "llm_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model",
+        "kind": 5,
+        "importPath": "llm_config",
+        "description": "llm_config",
+        "peekOfCode": "get_llm_model = get_langchain_model",
+        "detail": "llm_config",
         "documentation": {}
     }
 ]

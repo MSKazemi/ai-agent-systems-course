@@ -1,21 +1,26 @@
 """
-LLM Configuration — Azure OpenAI and Gemini provider switch
+LLM Configuration — Ollama (default), Azure OpenAI, and Gemini provider switch.
 
-This module handles LLM provider selection and Azure credential mapping.
 All agents (coordinator, remote math, remote prime) use get_llm_model().
+Reads .env from the current directory or any parent (finds root .env automatically).
 
-ENV VARS:
-    LLM_PROVIDER     : "azure" | "gemini" (default: auto based on what's configured)
+ENV VARS (set in root .env or A2A/.env):
+    LLM_PROVIDER     : "ollama" | "azure" | "gemini" (default: ollama)
+    OLLAMA_MODEL     : model name (default: qwen3.5:35b)
+    OLLAMA_BASE_URL  : Ollama endpoint (default: http://localhost:11434)
     AZURE_OPENAI_*   : For Azure (see .env.example)
     GOOGLE_API_KEY   : For Gemini
 
 AZURE MAPPING:
-    KubeIntellect uses AZURE_OPENAI_*, but LiteLLM expects AZURE_API_*.
+    LiteLLM expects AZURE_API_*, but we also support AZURE_OPENAI_*.
     _normalize_azure_env() copies values so both conventions work.
 """
 
 import os
 from typing import Any
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())
 
 
 def _normalize_azure_env() -> None:
@@ -58,25 +63,16 @@ def get_llm_model() -> Any:
     Return the LLM model object/string for ADK Agent.
 
     Selection logic:
+        - LLM_PROVIDER=ollama  → local Ollama via LiteLLM (default, no key needed)
         - LLM_PROVIDER=azure   → Azure OpenAI via LiteLLM (requires Azure env vars)
         - LLM_PROVIDER=gemini  → "gemini-2.0-flash" (requires GOOGLE_API_KEY)
-        - Unset                → Azure if configured, else Gemini
+        - Unset                → defaults to ollama
 
     Returns:
-        Either LiteLlm(model="azure/gpt-4o") or "gemini-2.0-flash"
+        LiteLlm instance or "gemini-2.0-flash" string
     """
-    provider = (os.getenv("LLM_PROVIDER") or "").lower().strip()
-    use_azure = is_azure_configured()
+    provider = (os.getenv("LLM_PROVIDER") or "ollama").lower().strip()
 
-    if provider == "azure":
-        if not use_azure:
-            raise RuntimeError(
-                "LLM_PROVIDER=azure but Azure not configured. "
-                "Set AZURE_OPENAI_API_KEY and AZURE_OPENAI_ENDPOINT in .env"
-            )
-        from google.adk.models.lite_llm import LiteLlm
-        return LiteLlm(model=f"azure/{get_azure_deployment()}")
-        
     if provider == "ollama":
         from google.adk.models.lite_llm import LiteLlm
         model = os.getenv("OLLAMA_MODEL", "qwen3.5:35b")
@@ -87,11 +83,18 @@ def get_llm_model() -> Any:
             stream=False,
         )
 
+    if provider == "azure":
+        if not is_azure_configured():
+            raise RuntimeError(
+                "LLM_PROVIDER=azure but Azure not configured. "
+                "Set AZURE_OPENAI_API_KEY and AZURE_OPENAI_ENDPOINT in .env"
+            )
+        from google.adk.models.lite_llm import LiteLlm
+        return LiteLlm(model=f"azure/{get_azure_deployment()}")
+
     if provider == "gemini":
         return "gemini-2.0-flash"
 
-    # Auto-select
-    if use_azure:
-        from google.adk.models.lite_llm import LiteLlm
-        return LiteLlm(model=f"azure/{get_azure_deployment()}")
-    return "gemini-2.0-flash"
+    raise ValueError(
+        f"Unknown LLM_PROVIDER='{provider}'. Choose: ollama, azure, gemini"
+    )
