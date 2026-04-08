@@ -48,19 +48,23 @@ source .venv/bin/activate       # Windows: .venv\Scripts\activate
 # 3. Install all dependencies
 pip install -r requirements.txt
 
-# 4. Configure your LLM provider
+# 4. Open the SSH tunnel to the lab's Ollama server (leave this terminal open)
+ssh YOUR_USERNAME@LAB_SERVER -p 2223 -L 11434:localhost:11434
+# → Your instructor will give you YOUR_USERNAME and LAB_SERVER privately.
+# → Full guide: docs/lab-ollama-setup.md
+
+# 5. Configure your .env (in a new terminal)
 cp .env.example .env
-# Edit .env — Ollama is the default (runs locally, no API key needed).
-# See "LLM providers" below for alternatives.
+# The defaults already point to localhost:11434 — no edits needed if using the lab.
 ```
 
-### LLM providers
+### LLM
 
-The course defaults to **Ollama** (local, free, no API key). Set `LLM_PROVIDER` in your `.env`:
+The course uses **Ollama running on the lab server** — you connect to it via SSH tunnel. You do **not** need to install Ollama or download any model on your own machine.
 
 | Provider | `LLM_PROVIDER` | Requires |
 |----------|---------------|---------|
-| Ollama (default) | `ollama` | [Ollama](https://ollama.com) + `ollama pull qwen3.5:35b` |
+| Lab Ollama (default) | `ollama` | SSH tunnel open (see Step 4 above) |
 | Azure OpenAI | `azure` | `AZURE_OPENAI_*` vars in `.env` |
 | Google Gemini | `gemini` | `GOOGLE_API_KEY` in `.env` |
 | OpenAI | `openai` | `OPENAI_API_KEY` in `.env` (DeepAgent only) |
@@ -210,11 +214,9 @@ ai-agent-systems-course/
 ## Prerequisites
 
 - **Python 3.10 or newer** (Python 3.11+ recommended)
-- **Ollama** (recommended) — download at [ollama.com](https://ollama.com), then:
-  ```bash
-  ollama pull qwen3.5:35b
-  ```
-- Or an API key for Azure OpenAI, Google Gemini, or OpenAI (see `.env.example`)
+- **SSH client** — built into Linux, macOS, and Windows 10+ (PowerShell / Git Bash)
+- **Lab credentials** — your instructor will give you the SSH username, server address, and port
+- No local Ollama installation needed — the model runs on the lab server
 
 **Windows users:** See [MCP Windows Setup](MCP/docs/06-windows-setup.md) for Git, Python, and VS Code installation.
 

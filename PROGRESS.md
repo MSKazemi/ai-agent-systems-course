@@ -9,6 +9,7 @@
 - [x] **Unified LLM config** — root `.env.example`, root `llm_config.py`; all modules default to Ollama; standardized env var names
 - [x] **Single venv** — root `requirements.txt` covering all modules; per-module `requirements.txt` kept for standalone use
 - [x] **Git pull guide** — cross-platform (Linux/Mac/Windows) instructions in root README
+- [x] **Lab Ollama via SSH tunnel** — `docs/lab-ollama-setup.md`; port-forwarding for Linux/Mac/Windows; no local Ollama install required
 - [x] **Ollama support** — MCP (Mohsen), A2A (Andrea), DeepAgent updated, LangGraph examples use Ollama by default
 - [x] **find_dotenv()** — all `llm_config.py` files walk upward to find root `.env`
 
