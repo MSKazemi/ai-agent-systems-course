@@ -162,24 +162,6 @@ You will run a coordinator agent that delegates arithmetic to a math agent and p
 
 ---
 
-## Module 4 — Code Executor
-
-**The idea:** Real agents don't just plan — they *act* and *recover*. The Code Executor is a LangGraph ReAct agent that generates Python code to answer questions about a dataset, runs it in an isolated subprocess, and automatically rewrites it when it fails. There is no human in the correction loop.
-
-This module shows the ReAct pattern at its most concrete: you can read every node, every routing decision, and every retry in the code.
-
-**What you'll learn:**
-
-- How to build a ReAct loop from scratch with LangGraph (no prebuilt agent)
-- How to route a state machine on tool output (`SUCCESS` vs `[PYTHON_EXECUTION_FAILED]`)
-- How to enforce tool-calling protocol programmatically (not just via prompting)
-- How subprocess isolation protects the host process from untrusted generated code
-- The difference between `llm_config.py` (provider-agnostic) and a tuned Ollama wrapper
-
-**[→ Start Code Executor module](code-executorv01/README.md)**
-
----
-
 ## Module 3 — DeepAgent
 
 **The idea:** A single agent has limits. When a task is large, the context window fills up; without a plan, steps get skipped; without subagents, everything runs sequentially. DeepAgent is a batteries-included harness that solves all three — built on LangChain and LangGraph.
@@ -195,6 +177,25 @@ You will build agents that plan multi-step tasks, read and write files to manage
 - How to add your own tools alongside the built-ins
 
 **[→ Start DeepAgent module](DeepAgent/README.md)**
+
+---
+
+
+## Module 4 — Code Executor
+
+**The idea:** Real agents don't just plan — they *act* and *recover*. The Code Executor is a LangGraph ReAct agent that generates Python code to answer questions about a dataset, runs it in an isolated subprocess, and automatically rewrites it when it fails. There is no human in the correction loop.
+
+This module shows the ReAct pattern at its most concrete: you can read every node, every routing decision, and every retry in the code.
+
+**What you'll learn:**
+
+- How to build a ReAct loop from scratch with LangGraph (no prebuilt agent)
+- How to route a state machine on tool output (`SUCCESS` vs `[PYTHON_EXECUTION_FAILED]`)
+- How to enforce tool-calling protocol programmatically (not just via prompting)
+- How subprocess isolation protects the host process from untrusted generated code
+- The difference between `llm_config.py` (provider-agnostic) and a tuned Ollama wrapper
+
+**[→ Start Code Executor module](code-executorv01/README.md)**
 
 ---
 
