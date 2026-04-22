@@ -21,7 +21,7 @@ PLOTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # --- Ollama connection ---
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen3.6:35b-a3b")
 
 # 'native' -> models with built-in function calling (llama3.1, qwen2.5, ...)
 # 'tagged' -> models that output <tool_call>...</tool_call> text tags
