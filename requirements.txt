@@ -24,7 +24,22 @@ fastapi>=0.115.0
 # ── LangGraph + DeepAgent module ─────────────────────────────
 deepagents>=0.4.0
 langchain>=0.3.0
+langchain-core>=0.3.0
 langchain-openai>=0.2.0
 langchain-google-genai>=2.0.0
 langchain-ollama>=0.1.0
+langchain-experimental>=0.3.0
 langgraph>=0.2.0
+
+# ── code-executor-thesis module ───────────────────────────────
+pydantic>=2.0.0
+aiofiles>=23.0.0
+python-multipart>=0.0.9
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scipy>=1.11.0
+scikit-learn>=1.4.0
+json-repair>=0.3.0

@@ -1,0 +1,543 @@
+================================================================================
+HPC DATACENTER MONITORING - 60 QUERIES
+Classified by ScienceAgentBench Categories & Subcategories
+================================================================================
+
+SCIENCEAGENTBENCH TAXONOMY:
+─────────────────────────────────────────────────────────
+MACRO-CATEGORIES       SUBCATEGORIES
+───────────────────── ──────────────────────────────────
+Data Processing (DP)   Feature Engineering (FE)
+                       Feature Selection (FS)
+                       Data Selection (DS)
+
+Model Development (MD) Deep Learning (DL)
+                       Machine Learning (ML)
+
+Data Analysis (DA)     Statistical Analysis (SA)
+                       Geospatial Analysis (GA)
+                       Computational Analysis (CA)
+
+Info Visualization (IV)Data Visualization (DV)
+                       Map Visualization (MV) 
+                       Molecule Visualization (MoV)
+─────────────────────────────────────────────────────────
+
+────────────────────────────────────────────────────────────────────────────────
+Q01
+Primary   : Data Processing / Data Selection
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Group by rack_id and count the number of unique node_id values; list the unique nodes per rack and generate a bar chart of the count.
+
+────────────────────────────────────────────────────────────────────────────────
+Q02
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Group data by date (ignoring time) and plot the daily average power_consumption_watts as a bar chart.
+
+────────────────────────────────────────────────────────────────────────────────
+Q03
+Primary   : Data Processing / Data Selection
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Count the total occurrences for each workload_type (training, inference, data_processing, idle) and generate a pie chart showing the percentage distribution of workloads.
+
+────────────────────────────────────────────────────────────────────────────────
+Q04
+Primary   : Data Analysis / Statistical Analysis
+────────────────────────────────────────────────────────────────────────────────
+Display the global mean, median, and standard deviation of power_consumption_watts for the entire datacenter to establish a baseline.
+
+────────────────────────────────────────────────────────────────────────────────
+Q05
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Sum power_consumption_watts grouping by rack_id and generate a comparative bar chart of total consumption between Rack A and Rack B.
+
+────────────────────────────────────────────────────────────────────────────────
+Q06
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Create a pivot table with node_id as rows and columns: Min Power, Max Power, Avg Temp, Total Hours Active (job_id not null).
+
+────────────────────────────────────────────────────────────────────────────────
+Q07
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Generate a 2×2 subplot grid with time series for node_001: cpu_percent, gpu_percent, memory_usage_gb, and calculated node efficiency defined as (cpu_percent + gpu_percent) / 2.
+
+────────────────────────────────────────────────────────────────────────────────
+Q08
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Calculate the daily average of outlet_temp_c and generate a line plot showing the thermal trend over the 4-day period January 1–4, 2025.
+
+────────────────────────────────────────────────────────────────────────────────
+Q09
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Calculate the 5-hour rolling average of power_consumption_watts for node_002 and plot it alongside the original raw data with different colors.
+
+────────────────────────────────────────────────────────────────────────────────
+Q10
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Filter the data for node_003 (rack_B) and plot outlet_temp_c over time, adding a horizontal threshold line at 40°C to visualize when this node approaches thermal limits.
+
+────────────────────────────────────────────────────────────────────────────────
+Q11
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+ Extract hour-of-day from datetime and calculate the average value of outlet_temp_c for each hour (0–23) and generate a line chart showing the cyclic daily pattern across all nodes and racks.
+
+────────────────────────────────────────────────────────────────────────────────
+Q12
+Primary   : Data Processing / Data Selection
+────────────────────────────────────────────────────────────────────────────────
+Identify unique job_id values that were running specifically between 10:00 AM and 2:00 PM on January 2, 2025 and display the list with their workload_type.
+
+────────────────────────────────────────────────────────────────────────────────
+Q13
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Aggregate power_consumption_watts by (datetime, rack_id) and plot a stacked area chart over time showing how total power is distributed across racks.
+
+────────────────────────────────────────────────────────────────────────────────
+Q14
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Extract hour-of-day from datetime, compute the mean cpu_percent for each (node_id, hour) pair, and visualize as a heatmap with nodes on y-axis and hours 0–23 on x-axis.
+
+────────────────────────────────────────────────────────────────────────────────
+Q15
+Primary   : Data Processing / Feature Engineering
+Secondary : Data Analysis / Statistical Analysis
+────────────────────────────────────────────────────────────────────────────────
+Create lagged features (t−1, t−2, t−3 hours) for power_consumption_watts on node_001 and calculate Pearson correlation between current power and each lag to measure autocorrelation strength.
+
+────────────────────────────────────────────────────────────────────────────────
+Q16
+Primary   : Data Processing / Data Selection
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Count total hours where job_id is not null (active) versus hours where job_id is null or workload_type='idle' and generate a donut chart comparing active vs idle time across the datacenter.
+
+────────────────────────────────────────────────────────────────────────────────
+Q17
+Primary   : Data Processing / Data Selection
+Secondary : Data Analysis / Statistical Analysis
+────────────────────────────────────────────────────────────────────────────────
+Identify which node_id(s) executed job JOB_1172 and calculate the average power_consumption_watts and outlet_temp_c during its execution.
+
+────────────────────────────────────────────────────────────────────────────────
+Q18
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+For each unique job_id, calculate the total number of consecutive hours it ran and generate a horizontal bar chart showing the 15 longest-running jobs.
+
+────────────────────────────────────────────────────────────────────────────────
+Q19
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Calculate the average number of hours per job execution for each workload_type (training, inference, data_processing) and generate a comparative bar chart.
+
+────────────────────────────────────────────────────────────────────────────────
+Q20
+Primary   : Data Processing / Data Selection
+Secondary : Data Analysis / Computational Analysis
+────────────────────────────────────────────────────────────────────────────────
+For each job_id, count how many different node_id values it appears on, filter jobs that ran on multiple nodes (potential migration or parallel execution), and list them with timestamps.
+
+────────────────────────────────────────────────────────────────────────────────
+Q21
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Calculate the total number of job executions (counting consecutive hours as one execution) per workload_type and generate a bar chart of job frequency by type.
+
+────────────────────────────────────────────────────────────────────────────────
+Q22
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Count active jobs (non-idle workload_type) for each rack at each timestamp and generate a multi-line time series plot showing job concurrency for Rack A versus Rack B over time.
+
+────────────────────────────────────────────────────────────────────────────────
+Q23
+Primary   : Data Processing / Data Selection
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Identify the top 10 most frequently executed jobs (by number of hour-samples) and create a horizontal bar chart with job_id on y-axis and frequency on x-axis.
+
+────────────────────────────────────────────────────────────────────────────────
+Q24
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Create a boxplot of power_consumption_watts grouped by node_id (one box per node) and overlay individual points with a swarm plot to show distribution and outliers.
+
+────────────────────────────────────────────────────────────────────────────────
+Q25
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Plot the distribution of cpu_percent as overlapping histograms (or KDE curves) for each workload_type (training, inference, data_processing, idle) with legend and clear axis labels.
+
+────────────────────────────────────────────────────────────────────────────────
+Q26
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Generate a box plot of gpu_percent grouped by workload_type to visualize GPU usage patterns and identify which workloads are GPU-intensive.
+
+────────────────────────────────────────────────────────────────────────────────
+Q27
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Fit a normal distribution to power_consumption_watts for all non-idle workloads and plot a histogram with KDE overlay and the fitted normal curve for comparison.
+
+────────────────────────────────────────────────────────────────────────────────
+Q28
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Create a violin plot of outlet_temp_c grouped by rack_id and annotate each distribution with its median temperature value.
+
+────────────────────────────────────────────────────────────────────────────────
+Q29
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+For each job_id that ran for at least 3 hours, calculate the standard deviation of power_consumption_watts and generate a horizontal bar chart of the top 15 jobs with the highest power variability.
+
+────────────────────────────────────────────────────────────────────────────────
+Q30
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Calculate the Pearson correlation matrix between cpu_percent, gpu_percent, memory_usage_gb, power_consumption_watts, and outlet_temp_c and generate a heatmap with annotated correlation coefficients.
+
+────────────────────────────────────────────────────────────────────────────────
+Q31
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+For node_001, identify time periods where both cpu_percent > 80 AND gpu_percent > 80 (high dual utilization) and plot CPU and GPU time series with these peaks highlighted.
+
+────────────────────────────────────────────────────────────────────────────────
+Q32
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Model Development / Machine Learning
+           Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Generate a scatter plot with X = (cpu_percent + gpu_percent) / 2 (average utilization) and Y = power_consumption_watts, color points by workload_type, and add a linear regression trend line.
+
+────────────────────────────────────────────────────────────────────────────────
+Q33
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Create a bubble chart where x = cpu_percent, y = gpu_percent, bubble size = power_consumption_watts, and bubble color = outlet_temp_c, including a colorbar for temperature.
+
+────────────────────────────────────────────────────────────────────────────────
+Q34
+Primary   : Model Development / Machine Learning
+Secondary : Data Analysis / Statistical Analysis
+           Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+ Filter data for rack_B, perform multiple linear regression with outlet_temp_c as dependent variable and cpu_percent, gpu_percent, power_consumption_watts as predictors, print R-squared and regression coefficients, and generate a predicted vs actual scatter plot.
+
+────────────────────────────────────────────────────────────────────────────────
+Q35
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Calculate the correlation between memory_usage_gb and power_consumption_watts for each workload_type separately and generate a bar chart comparing correlation strength across workload types.
+
+────────────────────────────────────────────────────────────────────────────────
+Q36
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Count 'warning' and 'normal' states (alert_status) grouped by rack_id and generate a stacked bar chart with rack on X-axis and alert status as stacked colors.
+
+────────────────────────────────────────────────────────────────────────────────
+Q37
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Define an Efficiency Index as (cpu_percent + gpu_percent) / power_consumption_watts * 100 and generate a histogram of efficiency values to understand the distribution.
+
+────────────────────────────────────────────────────────────────────────────────
+Q38
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Using the Efficiency Index, create three categories: Low (<0.25), Medium (0.25–0.35), High (>0.35), count rows per category, and visualize with a bar chart.
+
+────────────────────────────────────────────────────────────────────────────────
+Q39
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Calculate cumulative energy consumption in kWh for node_001 over time (kWh = power_watts × 1h / 1000), plot the cumulative curve, and mark milestones at 25 kWh, 50 kWh, 75 kWh.
+
+────────────────────────────────────────────────────────────────────────────────
+Q40
+Primary   : Data Processing / Feature Engineering
+Secondary : Data Analysis / Computational Analysis
+────────────────────────────────────────────────────────────────────────────────
+Calculate 3-hour and 6-hour rolling averages of power_consumption_watts for node_005, compute residuals (original − 6h avg), and plot all three on separate subplots for anomaly detection.
+
+────────────────────────────────────────────────────────────────────────────────
+Q41
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Identify which workload_type generates the highest percentage of 'warning' alert_status and create a grouped bar chart showing warning count and normal count for each workload type.
+
+────────────────────────────────────────────────────────────────────────────────
+Q42
+Primary   : Data Processing / Data Selection
+Secondary : Data Analysis / Statistical Analysis
+────────────────────────────────────────────────────────────────────────────────
+Find timestamps where outlet_temp_c > 42°C AND cpu_percent < 40% (thermal anomaly — high heat with low CPU) and return datetime, node_id, outlet_temp_c, cpu_percent, and power_consumption_watts.
+
+────────────────────────────────────────────────────────────────────────────────
+Q43
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Calculate total hours spent in 'warning' state versus 'normal' state for each rack and generate a grouped bar chart comparing Rack A vs Rack B alert distribution.
+
+────────────────────────────────────────────────────────────────────────────────
+Q44
+Primary   : Data Processing / Feature Engineering
+Secondary : Data Analysis / Computational Analysis
+────────────────────────────────────────────────────────────────────────────────
+Identify nodes where power_consumption_watts increased by more than 150W in a single hour and list all occurrences with timestamp, node_id, previous value, and current value.
+
+────────────────────────────────────────────────────────────────────────────────
+Q45
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Sum cpu_percent of all nodes by rack for each hour and generate a stacked area chart showing total CPU utilization distribution between Rack A and Rack B over time.
+
+────────────────────────────────────────────────────────────────────────────────
+Q46
+Primary   : Data Processing / Feature Engineering
+Secondary : Data Analysis / Computational Analysis
+────────────────────────────────────────────────────────────────────────────────
+Assuming electricity cost of €0.22/kWh, calculate total energy cost for each job_id (kWh = power_watts × hours / 1000) and return a table sorted by most expensive jobs.
+
+────────────────────────────────────────────────────────────────────────────────
+Q47
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Assuming €0.22/kWh, calculate total cost of energy during idle workloads versus productive workloads (training, inference, data_processing) for each rack and generate a stacked bar chart.
+
+────────────────────────────────────────────────────────────────────────────────
+Q48
+Primary   : Data Processing / Feature Engineering
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Define a Resource Utilization Score as (cpu_percent + gpu_percent + memory_usage_gb) / 3, calculate average score per node, and generate a radar chart comparing all 5 nodes.
+
+────────────────────────────────────────────────────────────────────────────────
+Q49
+Primary   : Data Analysis / Computational Analysis
+Secondary : Data Processing / Feature Engineering
+────────────────────────────────────────────────────────────────────────────────
+Simulate a failover scenario where Rack A went offline on Jan 3, 2025 at 12:00; calculate the average CPU and GPU load that would transfer to Rack B and check if Rack B has capacity (assume 100% max per node).
+
+────────────────────────────────────────────────────────────────────────────────
+Q50
+Primary   : Info Visualization / Data Visualization
+Secondary : Data Analysis / Computational Analysis
+           Data Processing / Feature Engineering
+────────────────────────────────────────────────────────────────────────────────
+Generate a comprehensive dashboard with 6 subplots in a 2×3 grid: (1) Daily Total Energy Cost in € (bar chart, €0.22/kWh) (2) Hourly Average Temperature by Rack (line chart) (3) Workload Type Distribution (pie chart) (4) Alert Status Frequency by Node (stacked bar) (5) Power Consumption Over Time by Rack (area chart) (6) CPU vs GPU Utilization Scatter (colored by workload_type).
+
+────────────────────────────────────────────────────────────────────────────────
+Q51
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Detect outliers in power_consumption_watts using Z-score (|Z| > 3.0), return a table of timestamps, node_id, rack_id, metric value, and Z-score, and generate a time series plot highlighting detected outlier points in a distinct color for each node.
+
+────────────────────────────────────────────────────────────────────────────────
+Q52
+Primary   : Data Processing / Feature Engineering
+Secondary : Data Analysis / Computational Analysis
+           Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+For node_001, compute the first-order difference of power_consumption_watts (value_t − value_t−1) at each timestep, identify the top 10 largest positive changes (steepest rises) and top 10 largest negative changes (steepest drops), return both ranked tables, and generate a dual horizontal bar chart.
+
+────────────────────────────────────────────────────────────────────────────────
+Q53
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Define a baseline window [2025-01-01 00:00, 2025-01-02 12:00] and a comparison window [2025-01-02 12:00, 2025-01-04 23:00] for power_consumption_watts, compute mean, median, standard deviation, and percentage change between the two windows, return a formatted comparison table, and generate a side-by-side bar chart for each statistic.
+
+────────────────────────────────────────────────────────────────────────────────
+Q54
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Segment all data rows into quartiles (Q1–Q4) based on cpu_percent, for each quartile compute the mean value of power_consumption_watts, and generate a bar chart showing how power consumption behaves across quartiles of CPU utilization to detect nonlinear or threshold effects.
+
+────────────────────────────────────────────────────────────────────────────────
+Q55
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+For cpu_percent and power_consumption_watts, calculate (1) the average power_consumption_watts when cpu_percent is above 80%, (2) the average power_consumption_watts when cpu_percent is at or below 80%, group results by node_id, and generate a comparative grouped bar chart of the two conditional expectations per node.
+
+────────────────────────────────────────────────────────────────────────────────
+Q56
+Primary   : Data Analysis / Computational Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+For node_001, identify all consecutive timesteps where cpu_percent increases (Δ > 0) while outlet_temp_c simultaneously decreases (Δ < 0), return a table of timestamps and delta values, count total occurrences, and generate a dual-axis time series plot highlighting the inverse-movement periods.
+
+────────────────────────────────────────────────────────────────────────────────
+Q57
+Primary   : Model Development / Machine Learning
+Secondary : Data Analysis / Statistical Analysis
+           Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Using a linear regression model predicting outlet_temp_c from cpu_percent, gpu_percent, and power_consumption_watts on rack_B data, compute residuals (actual − predicted) for all data points, identify the top 10 timestamps with the highest absolute residuals, return them in a ranked table with node_id, actual value, predicted value, and residual, and generate a residual vs fitted values scatter plot.
+
+────────────────────────────────────────────────────────────────────────────────
+Q58
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Compute the standard deviation of outlet_temp_c grouped by job_id, rank all jobs by variability from highest to lowest, and generate a horizontal bar chart of the top 15 most thermally variable jobs, overlaying the mean outlet_temp_c as a secondary marker on each bar.
+
+────────────────────────────────────────────────────────────────────────────────
+Q59
+Primary   : Data Analysis / Statistical Analysis
+Secondary : Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Compare the distribution of power_consumption_watts between the time window [2025-01-01 00:00, 2025-01-02 12:00] and [2025-01-03 00:00, 2025-01-04 23:00], plot overlapping KDE histograms for both windows, run a Kolmogorov–Smirnov test, and annotate the plot with the KS statistic, p-value, and a plain-language interpretation (significantly different or not at α = 0.05).
+
+────────────────────────────────────────────────────────────────────────────────
+Q60
+Primary   : Model Development / Machine Learning
+Secondary : Data Analysis / Statistical Analysis
+           Info Visualization / Data Visualization
+────────────────────────────────────────────────────────────────────────────────
+Train a Random Forest regressor to predict power_consumption_watts using cpu_percent, gpu_percent, memory_usage_gb, and outlet_temp_c as features (excluding idle rows), return feature importance scores ranked from highest to lowest, generate a horizontal bar chart of importances, and report cross-validated R² score (5-fold CV).
+
+================================================================================
+CATEGORY & SUBCATEGORY DISTRIBUTION (% of 60 queries)
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ MACRO-CATEGORY DISTRIBUTION                                                 │
+├──────────────────────────────────────────┬──────────────────┬───────────────┤
+│ Category                                 │ Queries involved │ % of 60       │
+├──────────────────────────────────────────┼──────────────────┼───────────────┤
+│ Data Processing (DP)                     │ 25               │ 41.7%         │
+│ Data Analysis (DA)                       │ 45               │ 75.0%         │
+│ Info Visualization (IV)                  │ 50               │ 83.3%         │
+│ Model Development (MD)                   │  4               │  6.7%         │
+└──────────────────────────────────────────┴──────────────────┴───────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ SUBCATEGORY DISTRIBUTION                                                    │
+├──────────────────────────────────────────┬──────────────────┬───────────────┤
+│ Subcategory                              │ Queries involved │ % of 60       │
+├──────────────────────────────────────────┼──────────────────┼───────────────┤
+│ Feature Engineering (FE)                 │ 17               │ 28.3%         │
+│ Data Selection (DS)                      │  8               │ 13.3%         │
+│ Machine Learning (ML)                    │  4               │  6.7%         │
+│ Statistical Analysis (SA)                │ 23               │ 38.3%         │
+│ Computational Analysis (CA)              │ 22               │ 36.7%         │
+│ Data Visualization (DV)                  │ 50               │ 83.3%         │
+└──────────────────────────────────────────┴──────────────────┴───────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ COMPLETE QUERY → CATEGORY MAPPING (all 60 queries)                                  │
+├──────┬───────────────────────────────────────────────────────────────────────────────┤
+│  #   │ Primary / Secondary Categories                                               │
+├──────┼───────────────────────────────────────────────────────────────────────────────┤
+│  Q01 │ DP/DS · IV/DV                                                                │
+│  Q02 │ DA/CA · IV/DV                                                                │
+│  Q03 │ DP/DS · IV/DV                                                                │
+│  Q04 │ DA/SA                                                                        │
+│  Q05 │ DA/CA · IV/DV                                                                │
+│  Q06 │ DP/FE · IV/DV                                                                │
+│  Q07 │ DA/CA · IV/DV                                                                │
+│  Q08 │ DA/CA · IV/DV                                                                │
+│  Q09 │ DP/FE · IV/DV                                                                │
+│  Q10 │ DA/CA · IV/DV                                                                │
+│  Q11 │ DA/CA · IV/DV                                                                │
+│  Q12 │ DP/DS                                                                        │
+│  Q13 │ DP/FE · IV/DV                                                                │
+│  Q14 │ DA/CA · IV/DV                                                                │
+│  Q15 │ DP/FE · DA/SA                                                                │
+│  Q16 │ DP/DS · IV/DV                                                                │
+│  Q17 │ DP/DS · DA/SA                                                                │
+│  Q18 │ DP/FE · IV/DV                                                                │
+│  Q19 │ DA/SA · IV/DV                                                                │
+│  Q20 │ DP/DS · DA/CA                                                                │
+│  Q21 │ DP/FE · IV/DV                                                                │
+│  Q22 │ DA/CA · IV/DV                                                                │
+│  Q23 │ DP/DS · IV/DV                                                                │
+│  Q24 │ DA/SA · IV/DV                                                                │
+│  Q25 │ DA/SA · IV/DV                                                                │
+│  Q26 │ DA/SA · IV/DV                                                                │
+│  Q27 │ DA/SA · IV/DV                                                                │
+│  Q28 │ DA/SA · IV/DV                                                                │
+│  Q29 │ DA/SA · IV/DV                                                                │
+│  Q30 │ DA/SA · IV/DV                                                                │
+│  Q31 │ DA/CA · IV/DV                                                                │
+│  Q32 │ DA/SA · MD/ML · IV/DV                                                        │
+│  Q33 │ DA/CA · IV/DV                                                                │
+│  Q34 │ MD/ML · DA/SA · IV/DV                                                        │
+│  Q35 │ DA/SA · IV/DV                                                                │
+│  Q36 │ DA/CA · IV/DV                                                                │
+│  Q37 │ DP/FE · IV/DV                                                                │
+│  Q38 │ DP/FE · IV/DV                                                                │
+│  Q39 │ DP/FE · IV/DV                                                                │
+│  Q40 │ DP/FE · DA/CA                                                                │
+│  Q41 │ DA/CA · IV/DV                                                                │
+│  Q42 │ DP/DS · DA/SA                                                                │
+│  Q43 │ DA/SA · IV/DV                                                                │
+│  Q44 │ DP/FE · DA/CA                                                                │
+│  Q45 │ DA/CA · IV/DV                                                                │
+│  Q46 │ DP/FE · DA/CA                                                                │
+│  Q47 │ DP/FE · IV/DV                                                                │
+│  Q48 │ DP/FE · IV/DV                                                                │
+│  Q49 │ DA/CA · DP/FE                                                                │
+│  Q50 │ IV/DV · DA/CA · DP/FE                                                        │
+│  Q51 │ DA/SA · IV/DV                                                                │
+│  Q52 │ DP/FE · DA/CA · IV/DV                                                        │
+│  Q53 │ DA/SA · IV/DV                                                                │
+│  Q54 │ DA/SA · IV/DV                                                                │
+│  Q55 │ DA/CA · IV/DV                                                                │
+│  Q56 │ DA/CA · IV/DV                                                                │
+│  Q57 │ MD/ML · DA/SA · IV/DV                                                        │
+│  Q58 │ DA/SA · IV/DV                                                                │
+│  Q59 │ DA/SA · IV/DV                                                                │
+│  Q60 │ MD/ML · DA/SA · IV/DV                                                        │
+└──────┴───────────────────────────────────────────────────────────────────────────────┘

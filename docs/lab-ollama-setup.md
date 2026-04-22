@@ -4,8 +4,7 @@ The course LLM runs on a shared lab server. You do **not** need to install Ollam
 
 To use it, you open an SSH tunnel that forwards the lab's Ollama port to your laptop. Once the tunnel is running, every course example works automatically — no other changes needed.
 
-> **Your instructor will give you `YOUR_USERNAME` and `LAB_SERVER` privately.**  
-> The SSH port is **2223**.
+> **Your instructor will give you `YOUR_USERNAME`, `LAB_SERVER`, and `PORT` privately.**
 
 ---
 
@@ -16,19 +15,19 @@ Run this command in a terminal and **leave it open** the entire time you work on
 ### Linux / macOS
 
 ```bash
-ssh YOUR_USERNAME@LAB_SERVER -p 2223 -L 11434:localhost:11434
+ssh YOUR_USERNAME@LAB_SERVER -p PORT -L 11434:localhost:11434
 ```
 
 ### Windows (PowerShell or Command Prompt)
 
 ```bat
-ssh YOUR_USERNAME@LAB_SERVER -p 2223 -L 11434:localhost:11434
+ssh YOUR_USERNAME@LAB_SERVER -p PORT -L 11434:localhost:11434
 ```
 
 ### Windows (Git Bash)
 
 ```bash
-ssh YOUR_USERNAME@LAB_SERVER -p 2223 -L 11434:localhost:11434
+ssh YOUR_USERNAME@LAB_SERVER -p PORT -L 11434:localhost:11434
 ```
 
 The terminal will appear to hang after you enter your password — that is correct. The tunnel is active. **Do not close this terminal.**
@@ -93,7 +92,7 @@ The tunnel is completely transparent to all course examples — nothing in the c
 If the tunnel drops on idle networks, add keepalive flags:
 
 ```bash
-ssh YOUR_USERNAME@LAB_SERVER -p 2223 -L 11434:localhost:11434 -o ServerAliveInterval=60 -o ServerAliveCountMax=5
+ssh YOUR_USERNAME@LAB_SERVER -p PORT -L 11434:localhost:11434 -o ServerAliveInterval=60 -o ServerAliveCountMax=5
 ```
 
 This sends a heartbeat every 60 seconds so the connection stays open.

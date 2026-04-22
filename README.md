@@ -10,7 +10,7 @@ A traditional program follows fixed instructions: input → logic → output.
 
 An **AI agent** is different: it can *decide* what to do next. You give it a goal in natural language, and it figures out which tools to call, in what order, to accomplish that goal. It can call a calculator, search the web, query a database, or even hand off work to another agent — all without you writing explicit step-by-step code.
 
-This course teaches four key technologies that make agents work in practice:
+This course teaches five key technologies that make agents work in practice:
 
 | Technology          | What it does                                                      | Analogy                             |
 |---------------------|-------------------------------------------------------------------|-------------------------------------|
@@ -18,12 +18,13 @@ This course teaches four key technologies that make agents work in practice:
 | **A2A**             | Lets one agent delegate tasks to other specialized agents         | A manager assigning work to experts |
 | **LangGraph**       | The graph-based loop that powers agent reasoning                  | The engine inside the agent         |
 | **DeepAgent**       | Gives a single agent planning, context management, and subagents  | A senior engineer with a task list  |
+| **Code Executor**   | A ReAct agent that writes, runs, and self-corrects Python code    | A data analyst that fixes its own mistakes |
 
 ---
 
 ## Course Modules
 
-### Recommended order: MCP → A2A → LangGraph → DeepAgent
+### Recommended order: MCP → A2A → LangGraph → DeepAgent → Code Executor
 
 | Module | What You'll Build | Time |
 |--------|-------------------|------|
@@ -31,6 +32,7 @@ This course teaches four key technologies that make agents work in practice:
 | **[A2A →](A2A/README.md)** | Coordinator agent delegating math and prime checks to remote agents | ~2–3 hours |
 | **[LangGraph →](LangGraph/README.md)** | The ReAct loop and LangChain basics — prerequisite for DeepAgent | ~45 min |
 | **[DeepAgent →](DeepAgent/README.md)** | A single agent that plans, manages context, and spawns subagents | ~1–2 hours |
+| **[Code Executor →](code-executorv01/README.md)** | A ReAct agent that generates, runs, and self-corrects Python code | ~1–2 hours |
 
 ---
 
@@ -49,8 +51,7 @@ source .venv/bin/activate       # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Open the SSH tunnel to the lab's Ollama server (leave this terminal open)
-ssh YOUR_USERNAME@LAB_SERVER -p 2223 -L 11434:localhost:11434
-# → Your instructor will give you YOUR_USERNAME and LAB_SERVER privately.
+# → Your instructor will give you the exact command privately.
 # → Full guide: docs/lab-ollama-setup.md
 
 # 5. Configure your .env (in a new terminal)
@@ -161,6 +162,24 @@ You will run a coordinator agent that delegates arithmetic to a math agent and p
 
 ---
 
+## Module 4 — Code Executor
+
+**The idea:** Real agents don't just plan — they *act* and *recover*. The Code Executor is a LangGraph ReAct agent that generates Python code to answer questions about a dataset, runs it in an isolated subprocess, and automatically rewrites it when it fails. There is no human in the correction loop.
+
+This module shows the ReAct pattern at its most concrete: you can read every node, every routing decision, and every retry in the code.
+
+**What you'll learn:**
+
+- How to build a ReAct loop from scratch with LangGraph (no prebuilt agent)
+- How to route a state machine on tool output (`SUCCESS` vs `[PYTHON_EXECUTION_FAILED]`)
+- How to enforce tool-calling protocol programmatically (not just via prompting)
+- How subprocess isolation protects the host process from untrusted generated code
+- The difference between `llm_config.py` (provider-agnostic) and a tuned Ollama wrapper
+
+**[→ Start Code Executor module](code-executorv01/README.md)**
+
+---
+
 ## Module 3 — DeepAgent
 
 **The idea:** A single agent has limits. When a task is large, the context window fills up; without a plan, steps get skipped; without subagents, everything runs sequentially. DeepAgent is a batteries-included harness that solves all three — built on LangChain and LangGraph.
@@ -208,6 +227,16 @@ ai-agent-systems-course/
 │   ├── examples/                    # 3 runnable examples
 │   ├── llm_config.py                # LangChain model config for DeepAgent
 │   └── .env.example                 # Module-local override (optional)
+├── code-executorv01/                # Module 4 — ReAct code execution agent
+│   ├── README.md                    # Module guide (start here)
+│   └── code_agent/                  # All source code
+│       ├── agent.py                 # Entry point and chat loop
+│       ├── graph.py                 # LangGraph state machine
+│       ├── tools.py                 # execute_python tool + subprocess isolation
+│       ├── llm_wrapper.py           # Ollama calls + protocol enforcement
+│       ├── system_prompt.py         # System prompt
+│       ├── config.py                # Configuration (.env)
+│       └── data/                    # CSV dataset (device_data.csv)
 └── README.md                        # This file
 ```
 
