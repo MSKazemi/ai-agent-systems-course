@@ -254,6 +254,15 @@ ai-agent-systems-course/
 
 ---
 
+## Instructors
+
+This course is developed and taught at the **University of Bologna**:
+
+- **Mohsen Seyedkazemi Ardebili** — University of Bologna
+- **Andrea Bartolini** — University of Bologna
+
+---
+
 ## License
 
 See [MCP/LICENSE](MCP/LICENSE) for the MCP module. All other materials follow the same terms.
