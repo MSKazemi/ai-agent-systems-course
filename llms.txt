@@ -1,0 +1,26 @@
+# AI Agent Systems Course
+
+> A hands-on, self-paced course for building AI agent systems from the ground up in Python. Developed and taught at the University of Bologna. The course covers five core technologies that make LLM-based agents work in practice: MCP (Model Context Protocol), A2A (Agent-to-Agent), LangGraph/LangChain, DeepAgent, and a ReAct code-executor agent.
+
+The course is organized into self-contained modules. Recommended order: MCP -> A2A -> LangGraph -> DeepAgent -> Code Executor. It uses an Ollama LLM served on the lab server (via SSH tunnel); Azure OpenAI, Google Gemini, and OpenAI are supported as optional alternatives. Requires Python 3.10+ (3.11+ recommended).
+
+Instructors: Mohsen Seyedkazemi Ardebili and Andrea Bartolini (University of Bologna).
+
+## Modules
+
+- [MCP (Model Context Protocol)](MCP/README.md): Build MCP servers with FastMCP that expose tools (calculator, file reader, database) to LLMs. Learn tool calling; tools vs resources vs prompts; connecting servers to VS Code, Cursor, and Claude Desktop.
+- [A2A (Agent-to-Agent)](A2A/README.md): Build a coordinator agent that delegates arithmetic to a math agent and primality checks to a prime agent over HTTP. Learn agent cards, exposing an agent as an HTTP service, and static vs dynamic (registry-based) orchestration.
+- [LangGraph & LangChain Primer](LangGraph/README.md): A ~45-minute primer on chat models, tool binding, LangGraph state graphs, and the ReAct pattern (reason -> act -> observe). Prerequisite for DeepAgent.
+- [DeepAgent](DeepAgent/README.md): Build a single agent harness that plans multi-step tasks, uses filesystem tools to manage context, and spawns subagents. Learn the write_todos tool, context management, and adding custom tools.
+- [Code Executor](code-executorv01/README.md): A LangGraph ReAct agent that generates Python code to answer questions about a dataset, runs it in an isolated subprocess, and self-corrects on failure with no human in the loop.
+
+## Setup
+
+- [Quick Setup](README.md): One virtualenv and one .env file cover every module. Create a venv, install requirements.txt, open the SSH tunnel to the lab Ollama server, and copy .env.example to .env.
+- [Lab Ollama setup](docs/lab-ollama-setup.md): How to connect to the lab's Ollama server via SSH tunnel.
+
+## Reference
+
+- [Project structure and full syllabus](README.md): Complete module map, project layout, prerequisites, and how to keep materials up to date.
+- [Memory types](docs/memory-types.md): Notes on agent memory types.
+- [MCP FAQ](MCP/FAQ.md): Frequently asked questions for the MCP module.
