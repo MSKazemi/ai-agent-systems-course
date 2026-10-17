@@ -266,3 +266,9 @@ This course is developed and taught at the **University of Bologna**:
 ## License
 
 See [MCP/LICENSE](MCP/LICENSE) for the MCP module. All other materials follow the same terms.
+
+<!-- legal-notice: start -->
+### Legal notice and responsible use
+
+The materials in this repository are made available without warranties to the extent permitted by applicable law. **Please read the [Disclaimer and Responsible-Use Notice](DISCLAIMER.md)** before relying on or deploying them. This notice does not change any existing software license or limit rights that cannot legally be waived.
+<!-- legal-notice: end -->
